@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hệ Thống Thi Trắc Nghiệm - Trung Tâm Kỹ Thuật Điện Toán Bách Khoa</title>
+  <link rel="icon" type="image/png" href="assets/logo-bk.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Container toàn bộ ứng dụng -->
+  <div id="app-container">
+    
+    <!-- HEADER TRÊN CÙNG (Khớp 100% hình ảnh thực tế) -->
+    <header class="header-container">
+      <div class="header-left">
+        <img src="assets/logo-bk.png" alt="Logo Bách Khoa" class="logo-bk">
+        <div class="header-school-info">
+          <div class="school-title">TRƯỜNG ĐẠI HỌC BÁCH KHOA - ĐẠI HỌC QUỐC GIA TP.HCM</div>
+          <div class="center-title">TRUNG TÂM KỸ THUẬT ĐIỆN TOÁN</div>
+          <div class="school-sub">Phòng 105 nhà A5 - 268 Lý Thường Kiệt, P.14, Q.10, TP.HCM - ĐT: 38 658 687</div>
+          <div class="school-sub">ĐT: 38 647 256 EXT 537 - Website: www.cce.hcmut.edu.vn - Email: ditc@hcmut.edu.vn</div>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <!-- Hàng trên: Mã đợt thi, Đồng hồ điện thoại & Loại chứng chỉ -->
+        <div class="header-top-row">
+          <div id="header-exam-code" class="exam-code-label">Mã đợt thi: 20261004</div>
+          <div id="mobile-timer-badge" class="timer-display mobile-timer-badge">00 : 30 : 00</div>
+          <a href="practice.html" style="background:#e0f2fe; color:#01579b; border:1px solid #81d4fa; text-decoration:none; padding:2px 8px; border-radius:4px; font-weight:700; font-size:12px; display:inline-flex; align-items:center; gap:4px;" title="Ôn tập tự do đủ 50 câu mỗi Module không giới hạn giờ">📚 Ôn tập từng Module (50 câu)</a>
+          <div class="exam-cert-label">Loại chứng chỉ: CƠ BẢN</div>
+        </div>
+        
+        <!-- Hàng dưới: Số câu, Đặt cờ, Kích thước chữ & Thông tin thí sinh -->
+        <div class="header-controls-row">
+          <div id="header-controls-container">
+            <!-- Cụm câu hỏi, cờ và kích thước chữ được render bằng JavaScript -->
+          </div>
+          <div id="header-student-info" class="student-info-label">Thí sinh: DTBK001 - Điện toán Bách Khoa 001</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- WORKSPACE CHÍNH -->
+    <main class="main-workspace">
+      
+      <!-- CỘT TRÁI: 30 CÂU HỎI & ĐỒNG HỒ ĐẾM NGƯỢC -->
+      <aside class="left-sidebar">
+        <div class="mobile-sidebar-heading">📋 Bảng 30 câu hỏi (Chạm để chọn câu):</div>
+        <!-- Lưới 30 câu hỏi: 5 cột x 6 hàng -->
+        <div id="questions-grid" class="questions-grid">
+          <!-- 30 ô câu hỏi sẽ được sinh động bằng JS -->
+        </div>
+
+        <!-- Cụm nút nộp bài, đồng hồ đếm ngược và phiên bản -->
+        <div class="left-sidebar-footer">
+          <button id="btn-submit-exam" class="btn-submit-exam">Kết thúc và Nộp bài</button>
+          <button id="btn-exit-app" class="btn-exit-app" style="display: none;">Thoát chương trình</button>
+          <div id="timer-text" class="timer-display">00 : 30 : 00</div>
+          <div class="app-version">v 1.8.5</div>
+        </div>
+      </aside>
+
+      <!-- CỘT PHẢI: KHU VỰC CÂU HỎI VÀ ĐÁP ÁN -->
+      <section class="right-workspace">
+        <!-- Khung hiển thị câu hỏi (Trên) -->
+        <div id="question-box" class="question-box">
+          <!-- Nội dung câu hỏi -->
+        </div>
+
+        <!-- Thanh phân cách 3 chấm nhỏ -->
+        <div class="section-divider-dots">...</div>
+
+        <!-- Khung hiển thị các đáp án (Dưới) -->
+        <div id="options-box" class="options-box">
+          <!-- 4 lựa chọn A, B, C, D -->
+        </div>
+
+        <!-- Thanh điều hướng câu trước / câu tiếp theo -->
+        <div id="bottom-nav-bar" class="bottom-nav-bar">
+          <!-- Render động bằng JS -->
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- Nạp dữ liệu 300 câu hỏi chính thức từ 6 Google Forms -->
+  <script src="js/questions.js"></script>
+  <!-- Nạp mã nguồn logic chính dành cho sinh viên làm bài -->
+  <script src="js/app.js"></script>
+</body>
+</html>
