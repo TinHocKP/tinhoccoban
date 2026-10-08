@@ -621,47 +621,48 @@
 
     modal.style.display = 'flex';
     modal.innerHTML = `
-      <div class="modal-dialog">
-        <div class="modal-header">
-          <h4>KỲ THI ỨNG DỤNG CNTT CĂN BẢN - ĐH BÁCH KHOA</h4>
+      <div class="modal-dialog" style="max-width: 380px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); background: #ffffff;">
+        <div class="modal-header" style="background: linear-gradient(135deg, #0288d1, #01579b); color: #fff; padding: 12px 16px; text-align: center; justify-content: center;">
+          <h4 style="margin: 0; font-size: 15px; font-weight: 800; text-transform: uppercase;">
+            KỲ THI ỨNG DỤNG CNTT - ĐH BÁCH KHOA
+          </h4>
         </div>
-        <div class="modal-body">
-          <div style="margin-bottom: 12px;">
-            <label style="font-weight: 600; display: block; margin-bottom: 4px;">Mã đợt thi:</label>
-            <input type="text" id="input-exam-code" value="${appState.examCode || todayExamCode}" placeholder="VD: ${todayExamCode}" style="width: 100%; padding: 8px; border: 1px solid #90caf9; border-radius: 4px;">
-          </div>
-          <div style="margin-bottom: 12px;">
-            <label style="font-weight: 600; display: block; margin-bottom: 4px;">Mã số sinh viên / Thí sinh:</label>
-            <input type="text" id="input-student-id" placeholder="Nhập MSSV (VD: 2110123 hoặc để trống tự sinh)" style="width: 100%; padding: 8px; border: 1px solid #90caf9; border-radius: 4px;">
+        
+        <div class="modal-body" style="padding: 16px 18px;">
+          <!-- User và Password điền sẵn mặc định -->
+          <div style="margin-bottom: 10px;">
+            <label style="font-weight: 600; font-size: 13px; color: #37474f; display: block; margin-bottom: 4px;">Tên đăng nhập / Thí sinh:</label>
+            <input type="text" id="input-username" value="sinhvien" style="width: 100%; padding: 8px 12px; border: 1.5px solid #90caf9; border-radius: 6px; font-size: 14px; font-weight: 600; color: #01579b; background: #f0f7ff;">
           </div>
           <div style="margin-bottom: 16px;">
-            <label style="font-weight: 600; display: block; margin-bottom: 4px;">Họ và tên thí sinh:</label>
-            <input type="text" id="input-student-name" placeholder="Nhập họ và tên (VD: Nguyễn Văn An)" style="width: 100%; padding: 8px; border: 1px solid #90caf9; border-radius: 4px;">
+            <label style="font-weight: 600; font-size: 13px; color: #37474f; display: block; margin-bottom: 4px;">Mật khẩu:</label>
+            <input type="text" id="input-password" value="123456" style="width: 100%; padding: 8px 12px; border: 1.5px solid #90caf9; border-radius: 6px; font-size: 14px; font-weight: 600; color: #01579b; background: #f0f7ff;">
           </div>
-          <div style="background: #e1f5fe; border: 1px solid #81d4fa; padding: 10px 14px; border-radius: 6px; font-size: 13.5px; line-height: 1.5;">
-            <strong>📌 Quy chế thi & Đề thi ngẫu nhiên:</strong><br>
-            • <strong>Đề thi độc lập & trộn ngẫu nhiên:</strong> Mỗi sinh viên nhận một đề ngẫu nhiên riêng biệt (bốc 5 câu từ mỗi Module trong 6 Module, đảo ngẫu nhiên toàn bộ 30 câu trong đề thi).<br>
-            • Tổng số câu hỏi: <strong>30 câu</strong> | Thời gian làm bài: <strong>30 phút</strong> đếm ngược.<br>
-            • Khi nộp bài: Chấm điểm tự động, câu đúng màu xanh, câu sai màu đỏ kèm đáp án đúng.
+
+          <!-- 2 Nút chính: Bắt đầu thi & Ôn thi -->
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <button id="btn-start-now" style="background: linear-gradient(180deg, #29b6f6 0%, #0288d1 100%); color: #ffffff; border: none; padding: 12px; border-radius: 6px; font-weight: 800; font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 6px; box-shadow: 0 2px 6px rgba(2, 136, 209, 0.3); touch-action: manipulation;">
+              <span>🎯</span>
+              <span>BẮT ĐẦU THI (30 PHÚT)</span>
+            </button>
+
+            <a href="practice.html" style="background: #e8f5e9; color: #1b5e20; border: 1.5px solid #81c784; padding: 11px; border-radius: 6px; font-weight: 800; font-size: 14.5px; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 6px; touch-action: manipulation;">
+              <span>📚</span>
+              <span>ÔN THI TỪNG MODULE (50 CÂU)</span>
+            </a>
           </div>
         </div>
-        <div class="modal-footer" style="flex-direction: column; align-items: stretch; gap: 8px;">
-          <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap;">
-            <a href="practice.html" style="background:#e8f5e9; color:#1b5e20; border:1px solid #81c784; padding:9px 16px; border-radius:6px; font-weight:bold; font-size:13.5px; text-decoration:none; display:inline-flex; align-items:center; gap:6px;">📚 Trang Ôn Tập 50 câu (Không giới hạn giờ)</a>
-            <button id="btn-start-now" style="background:linear-gradient(180deg, #29b6f6, #0288d1); color:#fff; border:none; padding:10px 24px; border-radius:6px; font-weight:bold; font-size:15px; cursor:pointer;">BẮT ĐẦU THI (30 PHÚT)</button>
-          </div>
-          <div style="text-align: center; margin-top: 4px;">
-            <a href="admin.html" style="font-size: 12px; color: #64748b; text-decoration: none;">🔒 Dành cho Giảng viên quản trị đề thi (Admin)</a>
-          </div>
+
+        <div class="modal-footer" style="padding: 8px 16px; background: #f8fafc; border-top: 1px solid #e2e8f0; justify-content: center;">
+          <a href="admin.html" style="font-size: 12px; color: #64748b; text-decoration: none;">🔒 Dành cho Giảng viên quản trị (Admin)</a>
         </div>
       </div>
     `;
 
     document.getElementById('btn-start-now').addEventListener('click', () => {
-      const code = document.getElementById('input-exam-code').value.trim() || todayExamCode;
-      const id = document.getElementById('input-student-id').value.trim() || randomId;
-      const name = document.getElementById('input-student-name').value.trim() || `Thí sinh ${id}`;
-      startNewExam(id, name, code);
+      const uInput = document.getElementById('input-username');
+      const username = (uInput && uInput.value.trim()) ? uInput.value.trim() : 'sinhvien';
+      startNewExam(username, `Thí sinh ${username}`, todayExamCode);
     });
   }
 
