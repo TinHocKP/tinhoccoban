@@ -153,7 +153,7 @@
   function updateTimerDisplay() {
     const formatted = formatTime(appState.remainingSeconds);
     const isDanger = appState.remainingSeconds <= 300;
-    const timerEls = document.querySelectorAll('.timer-display, #timer-text, #mobile-timer-badge');
+    const timerEls = document.querySelectorAll('.timer-display, #header-timer, #timer-text, #mobile-timer-badge');
     timerEls.forEach(timerEl => {
       timerEl.textContent = formatted;
       if (isDanger) {
@@ -330,22 +330,13 @@
     if (studentInfoEl) studentInfoEl.textContent = `Thí sinh: ${appState.studentId} - ${appState.studentName}`;
   }
 
-  // Render cụm điều khiển trên Header: Câu x, Đặt cờ, Kích thước chữ
+  // Render cụm điều khiển trên Header: Câu x, Đặt cờ
   function renderHeaderControls() {
     const controlsContainer = document.getElementById('header-controls-container');
     if (!controlsContainer) return;
 
     if (appState.view === 'result_summary') {
-      controlsContainer.innerHTML = `
-        <div class="left-ctrls">
-          <div class="font-size-control">
-            <span>Kích thước chữ:</span>
-            <input type="number" id="font-size-input" class="font-size-input" min="12" max="28" value="${appState.fontSize}">
-          </div>
-        </div>
-      `;
-      const input = document.getElementById('font-size-input');
-      if (input) input.addEventListener('change', (e) => changeFontSize(e.target.value));
+      controlsContainer.innerHTML = '';
       return;
     }
 
@@ -353,24 +344,15 @@
     const isFlagged = !!appState.flaggedQuestions[currIdx];
 
     controlsContainer.innerHTML = `
-      <div class="left-ctrls">
-        <span class="current-q-label">Câu ${currIdx + 1}</span>
-        <button id="btn-toggle-flag" class="btn-flag ${isFlagged ? 'active' : ''}">
-          <span>🚩</span>
-          <span>${isFlagged ? 'Bỏ cờ' : 'Đặt cờ'}</span>
-        </button>
-        <div class="font-size-control">
-          <span>Kích thước chữ:</span>
-          <input type="number" id="font-size-input" class="font-size-input" min="12" max="28" value="${appState.fontSize}">
-        </div>
-      </div>
+      <span class="current-q-badge">Câu ${currIdx + 1}</span>
+      <button id="btn-toggle-flag" class="btn-flag ${isFlagged ? 'active' : ''}" title="${isFlagged ? 'Bỏ cờ đánh dấu câu này' : 'Đặt cờ đánh dấu câu này để xem lại'}">
+        <span>🚩</span>
+        <span>${isFlagged ? 'Bỏ cờ' : 'Đặt cờ'}</span>
+      </button>
     `;
 
     const flagBtn = document.getElementById('btn-toggle-flag');
     if (flagBtn) flagBtn.addEventListener('click', toggleFlag);
-
-    const input = document.getElementById('font-size-input');
-    if (input) input.addEventListener('change', (e) => changeFontSize(e.target.value));
   }
 
   // Render lưới 30 câu hỏi bên cột trái

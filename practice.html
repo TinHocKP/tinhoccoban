@@ -278,21 +278,43 @@
     }
 
     .practice-grid-container {
-      max-height: calc(100vh - 300px);
+      max-height: calc(100vh - 280px);
       overflow-y: auto;
-      padding-right: 4px;
+      padding-right: 3px;
     }
     .practice-grid-container::-webkit-scrollbar {
-      width: 5px;
+      width: 4px;
     }
     .practice-grid-container::-webkit-scrollbar-thumb {
       background: #b0bec5;
       border-radius: 4px;
     }
+    .practice-grid-container .questions-grid {
+      grid-template-columns: repeat(5, 1fr);
+      gap: 3px;
+    }
+    .practice-grid-container .q-cell {
+      height: 24px !important;
+      min-height: 24px !important;
+      font-size: 11px !important;
+      border-radius: 3px !important;
+      padding: 0 !important;
+    }
 
     @media (max-width: 767px) {
       .practice-grid-container {
-        max-height: 260px;
+        max-height: none !important;
+      }
+      .practice-grid-container .questions-grid {
+        grid-template-columns: repeat(10, 1fr) !important;
+        gap: 3px !important;
+      }
+      .practice-grid-container .q-cell {
+        min-height: 25px !important;
+        height: 25px !important;
+        font-size: 10.5px !important;
+        border-radius: 3px !important;
+        padding: 0 !important;
       }
       .overview-hero {
         padding: 18px 16px;
@@ -310,17 +332,16 @@
        ========================================================================== -->
   <div id="practice-overview-view" class="overview-wrapper">
     <!-- Header trường -->
-    <header class="header-container">
+    <header class="header-container compact-header">
       <div class="header-left">
         <img src="assets/logo-bk.png" alt="Logo Bách Khoa" class="logo-bk">
         <div class="header-school-info">
-          <div class="school-title">TRƯỜNG ĐẠI HỌC BÁCH KHOA - ĐẠI HỌC QUỐC GIA TP.HCM</div>
-          <div class="center-title">TRUNG TÂM KỸ THUẬT ĐIỆN TOÁN - HỆ THỐNG ÔN TẬP THEO CHUYÊN ĐỀ</div>
-          <div class="school-sub">Phòng 105 nhà A5 - 268 Lý Thường Kiệt, P.14, Q.10, TP.HCM - ĐT: 38 658 687</div>
+          <div class="center-title">TRUNG TÂM KỸ THUẬT ĐIỆN TOÁN</div>
+          <div class="school-title">ĐẠI HỌC BÁCH KHOA - TP.HCM</div>
         </div>
       </div>
       <div class="header-right">
-        <a href="index.html" class="btn-exam-portal">🎯 Vào Phòng Thi Thử (30 câu / 30 phút)</a>
+        <a href="index.html" class="btn-exam-portal">🎯 Vào Phòng Thi Thử (30 câu)</a>
       </div>
     </header>
 
@@ -351,41 +372,38 @@
   <div id="practice-workspace-view" class="practice-workspace-container" style="display: none;">
     
     <!-- HEADER WORKSPACE -->
-    <header class="header-container">
+    <header class="header-container compact-header">
       <div class="header-left">
         <img src="assets/logo-bk.png" alt="Logo Bách Khoa" class="logo-bk">
         <div class="header-school-info">
-          <div class="school-title">TRƯỜNG ĐẠI HỌC BÁCH KHOA - ĐẠI HỌC QUỐC GIA TP.HCM</div>
           <div class="center-title">TRUNG TÂM KỸ THUẬT ĐIỆN TOÁN</div>
-          <div class="school-sub">Ôn tập chuyên đề - Đầy đủ 50 câu hỏi chuẩn Bộ TT&TT</div>
+          <div class="school-title">ĐẠI HỌC BÁCH KHOA - TP.HCM</div>
         </div>
       </div>
 
       <div class="header-right">
-        <!-- Hàng trên: Thông tin chủ đề, Huy hiệu không đếm giờ & Nút kết thúc đổi chủ đề -->
-        <div class="header-top-row">
-          <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-            <div id="workspace-module-title" class="active-module-title-badge">📘 Module 1: CNTT Cơ bản</div>
-            <span class="badge-no-timer">⏱️ Không đếm giờ</span>
-          </div>
-          <div>
-            <button id="btn-header-exit-topic" class="btn-exit-topic" title="Kết thúc chủ đề này và quay lại danh sách chọn chủ đề mới">
-              <span>✕</span>
-              <span>Đổi chủ đề khác</span>
-            </button>
-          </div>
+        <!-- Tên Module -->
+        <div id="workspace-module-title" class="active-module-title-badge">📘 Module 1: CNTT Cơ bản</div>
+
+        <!-- Cụm Câu hỏi & Nút Đặt cờ -->
+        <div id="header-controls-container" class="header-flag-box">
+          <!-- Render động bằng JS: [Câu X/50] [🚩 Đặt cờ] -->
         </div>
-        
-        <!-- Hàng dưới: Số câu, Đặt cờ, Kích thước chữ & Tùy chọn xem đáp án ngay -->
-        <div class="header-controls-row">
-          <div id="header-controls-container">
-            <!-- Render bằng JavaScript -->
-          </div>
-          <label class="instant-check-toggle" title="Khi bật, hệ thống sẽ báo đúng/sai và hiện giải thích ngay khi bạn bấm chọn đáp án">
-            <input type="checkbox" id="chk-instant-mode">
-            <span>👁️ Xem đáp án ngay khi chọn</span>
-          </label>
-        </div>
+
+        <!-- Chế độ xem ngay -->
+        <label class="instant-check-toggle" title="Khi bật, hệ thống sẽ báo đúng/sai và hiện giải thích ngay khi bạn bấm chọn đáp án">
+          <input type="checkbox" id="chk-instant-mode">
+          <span>👁️ Xem đáp án ngay</span>
+        </label>
+
+        <!-- Nút Đổi chủ đề & Nút Thi thử -->
+        <button id="btn-header-exit-topic" class="btn-exit-topic" title="Kết thúc chủ đề này và quay lại danh sách chọn chủ đề mới">
+          <span>✕ Đổi chủ đề</span>
+        </button>
+
+        <a href="index.html" class="btn-goto-practice" style="background:#e3f2fd; color:#0d47a1 !important; border-color:#90caf9;" title="Vào thi thử 30 câu">
+          🎯 Thi thử
+        </a>
       </div>
     </header>
 

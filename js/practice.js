@@ -459,16 +459,7 @@
     if (!container) return;
 
     if (state.view === 'result_summary') {
-      container.innerHTML = `
-        <div class="left-ctrls">
-          <div class="font-size-control">
-            <span>Kích thước chữ:</span>
-            <input type="number" id="font-size-input" class="font-size-input" min="12" max="28" value="${state.fontSize}">
-          </div>
-        </div>
-      `;
-      const input = document.getElementById('font-size-input');
-      if (input) input.addEventListener('change', (e) => changeFontSize(e.target.value));
+      container.innerHTML = '';
       return;
     }
 
@@ -476,24 +467,15 @@
     const isFlagged = !!state.flaggedQuestions[currIdx];
 
     container.innerHTML = `
-      <div class="left-ctrls">
-        <span class="current-q-label">Câu ${currIdx + 1}/${state.questions.length}</span>
-        <button id="btn-toggle-flag" class="btn-flag ${isFlagged ? 'active' : ''}">
-          <span>🚩</span>
-          <span>${isFlagged ? 'Bỏ cờ' : 'Đặt cờ'}</span>
-        </button>
-        <div class="font-size-control">
-          <span>Kích thước chữ:</span>
-          <input type="number" id="font-size-input" class="font-size-input" min="12" max="28" value="${state.fontSize}">
-        </div>
-      </div>
+      <span class="current-q-badge">Câu ${currIdx + 1}/${state.questions.length}</span>
+      <button id="btn-toggle-flag" class="btn-flag ${isFlagged ? 'active' : ''}" title="${isFlagged ? 'Bỏ cờ đánh dấu câu này' : 'Đặt cờ đánh dấu câu này'}">
+        <span>🚩</span>
+        <span>${isFlagged ? 'Bỏ cờ' : 'Đặt cờ'}</span>
+      </button>
     `;
 
     const flagBtn = document.getElementById('btn-toggle-flag');
     if (flagBtn) flagBtn.addEventListener('click', toggleFlag);
-
-    const input = document.getElementById('font-size-input');
-    if (input) input.addEventListener('change', (e) => changeFontSize(e.target.value));
   }
 
   // Render lưới 50 câu hỏi bên trái

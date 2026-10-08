@@ -12,34 +12,27 @@
   <!-- Container toàn bộ ứng dụng -->
   <div id="app-container">
     
-    <!-- HEADER TRÊN CÙNG (Khớp 100% hình ảnh thực tế) -->
-    <header class="header-container">
+    <!-- HEADER TRÊN CÙNG: RẤT GỌN CHỈ CÓ LOGO, THỜI GIAN, ĐẶT CỜ, ÔN 50 CÂU -->
+    <header class="header-container compact-header">
       <div class="header-left">
         <img src="assets/logo-bk.png" alt="Logo Bách Khoa" class="logo-bk">
         <div class="header-school-info">
-          <div class="school-title">TRƯỜNG ĐẠI HỌC BÁCH KHOA - ĐẠI HỌC QUỐC GIA TP.HCM</div>
           <div class="center-title">TRUNG TÂM KỸ THUẬT ĐIỆN TOÁN</div>
-          <div class="school-sub">Phòng 105 nhà A5 - 268 Lý Thường Kiệt, P.14, Q.10, TP.HCM - ĐT: 38 658 687</div>
-          <div class="school-sub">ĐT: 38 647 256 EXT 537 - Website: www.cce.hcmut.edu.vn - Email: ditc@hcmut.edu.vn</div>
+          <div class="school-title">ĐẠI HỌC BÁCH KHOA - TP.HCM</div>
         </div>
       </div>
 
       <div class="header-right">
-        <!-- Hàng trên: Mã đợt thi, Đồng hồ điện thoại & Loại chứng chỉ -->
-        <div class="header-top-row">
-          <div id="header-exam-code" class="exam-code-label">Mã đợt thi: 20261004</div>
-          <div id="mobile-timer-badge" class="timer-display mobile-timer-badge">00 : 30 : 00</div>
-          <a href="practice.html" style="background:#e8f5e9; color:#1b5e20; border:1.5px solid #81c784; text-decoration:none; padding:3px 10px; border-radius:6px; font-weight:800; font-size:12.5px; display:inline-flex; align-items:center; gap:5px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" title="Vào Ôn Thi từng Module đủ 50 câu tự do">📚 Ôn Thi (50 câu)</a>
-          <div class="exam-cert-label">Loại chứng chỉ: CƠ BẢN</div>
-        </div>
+        <!-- 1. Thời gian đếm ngược -->
+        <div id="header-timer" class="timer-display header-timer-badge" title="Thời gian làm bài còn lại">00 : 30 : 00</div>
         
-        <!-- Hàng dưới: Số câu, Đặt cờ, Kích thước chữ & Thông tin thí sinh -->
-        <div class="header-controls-row">
-          <div id="header-controls-container">
-            <!-- Cụm câu hỏi, cờ và kích thước chữ được render bằng JavaScript -->
-          </div>
-          <div id="header-student-info" class="student-info-label">Thí sinh: DTBK001 - Điện toán Bách Khoa 001</div>
+        <!-- 2. Cụm Câu hỏi & Nút Đặt cờ -->
+        <div id="header-controls-container" class="header-flag-box">
+          <!-- Render động bằng JS: [Câu X] [🚩 Đặt cờ] -->
         </div>
+
+        <!-- 3. Nút Ôn 50 câu -->
+        <a href="practice.html" class="btn-goto-practice" title="Vào Ôn Thi 50 câu từng chủ đề">📚 Ôn 50 câu</a>
       </div>
     </header>
 
