@@ -1,0 +1,300 @@
+Q1: Trong Windows, thao tác nào sẽ xóa hẳn các tập tin được chọn?
+  A. Bấm chuột phải vào các tập tin đựơc chọn và chọn lệnh Delete
+  B. Nhấn phím Delete trên bàn phím
+  C. Giữ phím Shift và nhấn phím Delete trên bàn phím
+  D. Giữ phím Alt và nhấn phím Delete trên bàn phím
+
+Q2: My Computer không có chức năng nào dưới đây?
+  A. Quản lý ổ đĩa, mạng
+  B. Quản lý máy in
+  C. Quản lý Control Panel
+  D. Quản lý Virus
+
+Q3: Phím, tổ hợp phím nào dùng để chụp màn hình?
+  A. Ctrl+C
+  B. Ctrl+Ins
+  C. Print Screen
+  D. ESC
+
+Q4: Để chụp hình ảnh của một hộp thoại bằng bàn phím ta nhấn tổ hợp phím nào?
+  A. Alt+Printscreen
+  B. Shift+Tab
+  C. Alt+Tab
+  D. Ctrl+Shift+Tab
+
+Q5: Để định vị Taskbar trong trạng thái được định vị tùy ý ta chọn
+  A. Taskbar định vị ở bottom là cố định và không thể di chuyển
+  B. Dùng chuột kéo thẻ Taskbar tùy ý trên 4 cạnh màn hình
+  C. Nhấn phải chuột vào Taskbar chọn Show Desktop
+  D. Nhấn phải chuột vào Taskbar chọn Properties – tại dòng Taskbar location on screen và chọn vị trí tùy ý
+
+Q6: Khái niệm Desktop là gì ?
+  A. Là màn hình đăng nhập
+  B. Là màn hình để chỉnh sửa các thành phần của Windows
+  C. Là màn hình xuất hiện đầu tiên sau khi Windows khởi động xong
+  D. Là màn hình đầu tiên xuất hiện khi cài đặt một phần mềm
+
+Q7: Trong Window để chọn nhiều tập tin hay thư mục liên tục ta thực hiện thao tác kết hợp phím ____ với bấm chuột trái.
+  A. Tab
+  B. Shift
+  C. Ctrl
+  D. Alt
+
+Q8: Bộ phím tắt nào được sử dụng để chuyển sang các cửa sổ đang mở khác?
+  A. Alt+F4
+  B. Ctrl+Esc
+  C. Alt+Tab
+  D. Ctrl+Tab
+
+Q9: Trong Windows để chọn nhiều tập tin không nằm liền nhau, ta bấm chuột trái và phím _____
+  A. Shift
+  B. Alt
+  C. Tab
+  D. Ctrl
+
+Q10: Phím tắt để sao chép một đối tượng vào ClipBoard là _____
+  A. Ctrl+X
+  B. Ctrl+C
+  C. Ctrl+V
+  D. Ctrl+D
+
+Q11: Phím tắt để cắt một đối tượng vào ClipBoard là _____
+  A. Ctrl+X
+  B. Ctrl+C
+  C. Ctrl+V
+  D. Ctrl+D
+
+Q12: Phím tắt để dán một đối tượng từ ClipBoard là _____
+  A. Ctrl+X
+  B. Ctrl+C
+  C. Ctrl+V
+  D. Ctrl+D
+
+Q13: Để đóng ứng dụng ta dùng tổ hợp phím:
+  A. Ctrl+A
+  B. Alt+F4
+  C. Ctrl+F4
+  D. Alt+A
+
+Q14: Các thông số 1280x1024, 1280x720, 1152x864 trong tính năng Screen Resolution là những thông số thiết lập _____
+  A. Kích thước ảnh
+  B. Những bài toán nhân
+  C. Độ phân phải màn hình
+  D. Kích thước màn hình
+
+Q15: Để xem nội dung thư mục với các thông tin mặc định: Name, Types, Size, Date modified, … ta chọn chế độ hiển thị nào?
+  A. Tiles
+  B. List
+  C. Detail
+  D. Content
+
+Q16: Windows Explorer dùng để
+  A. Quản lý tập tin, thư mục
+  B. Truy cập mạng
+  C. Quản lý tập tin
+  D. Quản lý thư mục
+
+Q17: Cách tắt máy nào sau đây có thể gây hại cho máy tính ?
+  A. Nhấn và giữ nút nguồn đến khi máy tắt
+  B. Sử dụng chức năng Power Off
+  C. Sử dụng chức năng Hibernate
+  D. Nhấn phím Windows → bấm mũi tên phải → Nhấn phím Enter
+
+Q18: Hệ điều hành là ________
+  A. Một chương trình chạy trên máy tính dùng quản lý điều hành máy tính
+  B. Một chương trình chạy trên máy tính như các chương trình khác
+  C. Một thiết bị gắn thểm vào máy tính để quản lý điều hành máy tính
+  D. Chính là máy tính
+
+Q19: Hệ điều hành không có nhiệm vụ nào ?
+  A. Cung cấp giao diện sử dụng và giao diện lập trình cho người dùng
+  B. Thực hiện các thao tác cơ bản như đọc/ghi và quản lý tập tin
+  C. Cung cấp một số công cụ cơ bản như trình duyệt, trình soạn thảo văn bản
+  D. Diệt Virus máy tính
+
+Q20: Thư mục nào không phải là thư mục của hệ thống?
+  A. My Computer
+  B. My Document
+  C. My Download
+  D. Recycle Bin
+
+Q21: Trong hình sau, máy in mặc định được đánh số mấy?
+  A. Số 1
+  B. Số 2
+  C. Số 3
+  D. Số 4
+
+Q22: Số phân vùng ổ cứng nhiều nhất trong máy tính thể hiện ở hình sau là bao nhiêu?
+  A. 3
+  B. 4
+  C. 5
+  D. 6
+
+Q23: Trong hình sau, ổ đĩa nào là ổ đĩa quang?
+  A. Ổ C
+  B. Ổ D
+  C. Ổ E
+  D. Ổ F
+
+Q24: Tệp tin có phần mở rộng là JPG cho ta biết đây là loại tệp tin gì?
+  A. File ảnh
+  B. File thực thi
+  C. File văn bản
+  D. File âm thanh
+
+Q25: Tệp tin có phần mở rộng là EXE cho ta biết đây là loại tệp tin gi ?
+  A. File ảnh
+  B. File thực thi
+  C. File văn bản
+  D. File âm thanh
+
+Q26: Microsoft Windows là một _____
+  A. Chương trình xử lý văn bản.
+  B. Chương quản lý cơ sở dữ liệu
+  C. Hệ điều hành (Operating System).
+  D. Chương trình đồ hoạ (Graphics Program).
+
+Q27: Phím Caps Lock có chức năng gì ?
+  A. Bật/Tắt chức năng cuộn trang trong Excel bằng phím mũi tên
+  B. Bật/Tắt cách gõ văn bản bằng chữ in hoa
+  C. Bật/Tắt dãy phím số bên phải
+  D. Bật/Tắt bàn phím ảo
+
+Q28: Phím Num Lock có chức năng gì ?
+  A. Bật/Tắt chức năng cuộn trang trong Excel bằng phím mũi tên
+  B. Bật/Tắt cách gõ văn bản bằng chữ in hoa
+  C. Bật/Tắt dãy phím số bên phải
+  D. Bật/Tắt bàn phím ảo
+
+Q29: Có bao nhiêu tài liệu khác nhau có thể mở trong cùng một thời điểm ?
+  A. Không hơn 3
+  B. Chỉ có 1
+  C. Không nhiều hơn thanh Taskbar có thể hiển thị cho phép
+  D. Mở cho đến khi bộ nhớ máy tính không cho phép
+
+Q30: Quá trình Sleep trong máy tính nghĩa là ____
+  A. Đặt máy vào trạng thái chờ đợi và hoạt động trở lại khi bấm nút trên bàn phím hoặc chuột
+  B. Đặt máy tính vào trạng thái tắt hoàn toàn
+  C. Lưu các trạng thái hiện thời của các ứng dụng đang mở vào ổ cứng và đặt máy tính vào trạng thái tắt hoàn toàn
+  D. Máy tính sẽ tắt hoàn toàn và tự bật nguồn lên lại.
+
+Q31: Quá trình Hibernate trong máy tính nghĩa là ____
+  A. Đặt máy vào trạng thái chờ đợi và hoạt động trở lại khi bấm nút trên bàn phím hoặc chuột
+  B. Đặt máy tính vào trạng thái tắt hoàn toàn
+  C. Lưu các trạng thái hiện thời của các ứng dụng đang mở vào ổ cứng và đặt máy tính vào trạng thái tắt hoàn toàn
+  D. Máy tính sẽ tắt hoàn toàn và tự bật nguồn lên lại.
+
+Q32: Quá trình Shut down trong máy tính nghĩa là ____
+  A. Đặt máy vào trạng thái chờ đợi và hoạt động trở lại khi bấm nút trên bàn phím hoặc chuột
+  B. Đặt máy tính vào trạng thái tắt hoàn toàn
+  C. Lưu các trạng thái hiện thời của các ứng dụng đang mở vào ổ cứng và đặt máy tính vào trạng thái tắt hoàn toàn
+  D. Máy tính sẽ tắt hoàn toàn và tự bật nguồn lên lại.
+
+Q33: Quá trình Restart trong máy tính nghĩa là ____
+  A. Đặt máy vào trạng thái chờ đợi và hoạt động trở lại khi bấm nút trên bàn phím hoặc chuột
+  B. Đặt máy tính vào trạng thái tắt hoàn toàn
+  C. Lưu các trạng thái hiện thời của các ứng dụng đang mở vào ổ cứng và đặt máy tính vào trạng thái tắt hoàn toàn
+  D. Máy tính sẽ tắt hoàn toàn và tự bật nguồn lên lại.
+
+Q34: Số ký tự tối đa mà một tên tập tin có thể có là _____
+  A. 64
+  B. 128
+  C. 255
+  D. 256
+
+Q35: Đường dẫn trong máy tính có nghĩa gì?
+  A. Cho biết các tuyến đường chính xác cần phải đi qua để đến được vị trí của một tập tin
+  B. Cho biết tên đăng nhập và mật khẩu hiện đang được sử dụng
+  C. Cho thấy nơi các tập tin chương trình được lưu trữ trên hệ thống
+  D. Thiết lập các kết nối Internet cho các thông tin đăng nhập
+
+Q36: Phím tắt nào được dùng để đổi tên tập tin/thư mục?
+  A. F1
+  B. F2
+  C. F3
+  D. F4
+
+Q37: Ý nghĩa của Recycle Bin (thùng rác) là gì?
+  A. Cho biết có thể xóa một số thư mục cũ hơn
+  B. Cho biết có các tập tin cũ sẽ bị xóa
+  C. Lưu trữ các tập tin đã bị xóa hoặc thư mục được tạo ra bởi những người chia sẽ máy tính
+  D. Khu vực lưu trữ tạm thời các tập tin và thư mục bị xóa
+
+Q38: Khu vực lưu trữ tạm thời các tập tin và thư mục bị xóa
+  A. Để thay đổi việc hiển thị hoặc cách nhập liệu
+  B. Để tự động chuyển đổi email sang ngôn ngữ khác khi ta mở chúng
+  C. Để cho phép tập tin fax từ các nước khác đến máy tính sẽ được dịch tự động
+  D. Để dịch tự động một tài liệu sang ngôn ngữ khác
+
+Q39: Thông báo sau cho biết điều gì?
+  A. Di chuyển thư mục Winrar vào thùng rác
+  B. Xóa hoàn toàn thư mục Winrar
+  C. Không thể đổi tên thư mục Winrar thành tên khác
+  D. Chỉ hiển thị thông tin về thư mục Winrar và không có gì xảy ra nếu bấm nút Yes hoặc No
+
+Q40: Người và máy tính giao tiếp với nhau thông qua
+  A. Hệ điều hành
+  B. Đĩa cứng
+  C. Chuột
+  D. Tùy chọn 4
+
+Q41: Phần mềm nào dưới đây không phải là phần mềm hệ thống?
+  A. Microsoft-DOS
+  B. Microsoft Windows
+  C. Linux
+  D. Microsoft Excel
+
+Q42: Thông báo sau cho biết điều gì?
+  A. Di chuyển thư mục Books vào thùng rác
+  B. Xóa hoàn toàn thư mục Books
+  C. Không thể đổi tên thư mục Books thành tên khác
+  D. Chỉ hiển thị thông tin về thư mục Books và không có gì xảy ra nếu bấm nút Yes hoặc No
+
+Q43: Trong hệ điều hành Windows, để phục hồi tất cả các đối tượng trong Recycle Bin (thùng rác) ta nháy phải chuột tại Recycle Bin và chọn lệnh:
+  A. Delete
+  B. Restore
+  C. Redo
+  D. Undo Delete
+
+Q44: Tìm câu sai trong các câu dưới đây:
+  A. Hệ điều hành đảm bảo giao tiếp giữa người dùng và máy tính
+  B. Chức năng chính của hệ điều hành là thực hiện tìm kiếm thông tin trên Internet
+  C. Hệ điều hành cung cấp các phương tiện và dịch vụ để người sử dụng dễ dàng thực hiện chương  trình, quản lí chặt chẽ, khai thác các tài nguyên của máy tính một cách tối ưu
+  D. Hệ điều hành Windows là hệ điều hành dùng cho máy tính cá nhân của hãng Microsoft
+
+Q45: . Control Panel trong hệ điều hành Windows là gi?
+  A. Là tập hợp các chương trình dùng để cài đặt các tham số hệ thống như phông chữ, máy in, ...
+  B. Lả tập hợp các chương trình dùng để quản lí các phần mềm ứng dụng
+  C. Là tập hợp các chương trình dùng để thay đổi các tham số của các thiết bị phần cứng như chuột,  bàn phím, màn hình, ...
+  D. Các ý trên đều đúng
+
+Q46: Muốn thay đổi các thông số khu vực trong hệ điều hành Windows như múi giờ, đơn vị tiền tệ, cách viết số, ... ta sử dụng chương trình nào trong các chương trình sau?
+  A. Microsoft Paint
+  B. Control Panel
+  C. System Tools
+  D. Caculator
+
+Q47: Trong các phát biểu sau, phát biểu nào không chính xác?
+  A. Di chuột (Mouse move): Di chuyển con trỏ chuột đến một vị trí nào đó trên màn hình
+  B. Nháy chuột (Click): Nhấn một lần nút trái chuột (nút ngầm định) rồi thả ngón tay, còn gọi là kích  chuột
+  C. Nháy phải chuột (Mouse right): Nhấn một lần nút phải chuột và thả tay
+  D. Nháy đúp chuột (Double click): Nháy nhanh hai lần liên tiếp nút trái chuột
+
+Q48: Trong hệ điều hành Windows, thanh hiển thị tên chương trình và nằm trên cùng của một cửa sổ được gọi là
+  A. Thanh công cụ chuẩn (Standard Bar)
+  B. Thanh tiêu đề (Title Bar)
+  C. Thanh trạng thái (Status Bar)
+  D. Thanh cuộn (Scroll Bar).
+
+Q49: Trong hệ điều hành Windows, thao tác Drag and Drop (kéo thả chuột) được sử dụng khi ta:
+  A. Mở thư mục
+  B. Thay đổi màu nền cho cửa sổ hiện hành
+  C. Di chuyển đối tượng đến vị trí mới
+  D. Xem thuộc tính của tệp hiện tại
+
+Q50: Đường tắt (Shortcut) là gì?
+  A. Là chương trình được cài đặt vào máy tính giúp người dùng khởi động máy tính nhanh chóng
+  B. Là biểu tượng giúp người dùng truy cập nhanh vào đối tượng thường sử dụng
+  C. Là biểu tượng để mở cửa sổ My Computer
+  D. Là chương trình được cài đặt vào máy tính với mục đích hổ trợ người sử dụng soạn thảo các văn bản tiếng việt
+

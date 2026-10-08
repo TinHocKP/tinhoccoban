@@ -1,0 +1,300 @@
+Q1: Theo đơn vi đo thông tin trong máy tính thì 1 byte bằng bao nhiêu bit ?
+  A. 4
+  B. 6
+  C. 8
+  D. 10
+
+Q2: Thiết bị nào sau đây dùng để kết nối mạng?
+  A. RAM
+  B. ROM
+  C. Router
+  D. CPU
+
+Q3: Trong mạng máy tính, thuật ngữ Share có ý nghĩa gì?
+  A. Chia sẻ tài nguyên
+  B. Nhãn hiệu của một thiết bị kết nối mạng
+  C. Thực hiện lệnh in trong mạng cục bộ
+  D. Một phần mềm hỗ trợ sử dụng mạng cục bộ
+
+Q4: Các thiết bị nào thông dụng nhất hiện nay dùng để cung cấp dữ liệu cho máy xử lý?
+  A. Bàn phím (Keyboard), Chuột (Mouse), Máy in (Printer)
+  B. Máy quét ảnh (Scaner)
+  C. Bàn phím (Keyboard), Chuột (Mouse) và Máy quét ảnh (Scaner)
+  D. Máy quét ảnh (Scaner), Chuột(Mouse)
+
+Q5: Khả năng xử lý của máy tính phụ thuộc vào … bạn sử dụng lựa chọn nào?
+  A. Tốc độ CPU, dung lượng bộ nhớ RAM, dung lượng và ổ cứng
+  B. Yếu tố đa nhiệm
+  C. Hiện tượng phân mảnh ổ đĩa
+  D. Cả 3 phần trên đều đúng
+
+Q6: Máy tính là gì?
+  A. Là công cụ chỉ dùng để tính toán các phép tính thông thường
+  B. Là công cụ cho phép xử lý thông tin một cách tự động
+  C. Là công cụ cho phép xử lý thông tin một cách thủ công
+  D. Là công cụ không dùng để tính toán
+
+Q7: Trình tự xử lý thông tin của máy tính điện tử
+  A. Màn hình → CPU → Đĩa cứng
+  B. Đĩa cứng → Màn hình → CPU
+  C. Nhập thông tin → Xử lý thông tin → Xuất thông tin
+  D. Màn hình → Máy in → CPU
+
+Q8: Cấu tạo của máy tính bao gồm _____
+  A. Thiết bị nhập, thiết bị xuất, bộ xử lý trung tâm
+  B. Thiết bị nhập xuất, bộ xử lý trung tâm, bộ nhớ.
+  C. Thiết bị nhập, bộ xử lý trung tâm, bộ nhớ.
+  D. Thiết bị nhập, thiết bị xuất, bộ nhớ trong, bộ nhớ ngoài.
+
+Q9: Trong phân loại mạng máy tính theo qui mô, loại mạng nào là nhỏ nhất?
+  A. LAN = Local Area Network
+  B. MANs = Metropolitan Area Networks
+  C. WANs = Wide Area Networks
+  D. Internet
+
+Q10: Câu nào sau đây đúng?
+  A. Các máy tính gần nhau mặc định sẽ thấy nhau dù không cùng lớp mạng
+  B. Nếu chỉ có một máy tính thì nó không thể chia sẽ dữ liệu
+  C. Máy khác có thể thay đổi các tập tin chia sẽ khi chưa được phép
+  D. Hai máy tính vẫn có thể kết nối với nhau mà không quan tâm đến khoảng cách địa lý là bao xa
+
+Q11: Tường lửa là _________ .
+  A. Là sự kết hợp của một phần mềm và một thiết bị phần cứng
+  B. Kiểm soát lưu thông dữ liệu giữa 2 vùng có độ tin cậy khác nhau trên mạng
+  C. Có thể dùng để chặn các truy cập hợp pháp đến một thiết bị/dịch vụ
+  D. Là một thuật ngữ ám chỉ máy tính không còn an toàn nữa
+
+Q12: Mạng máy tính là _______
+  A. Các máy tính cùng chung một nhà sản xuất.
+  B. Các máy tính độc lập và được kết nối với nhau.
+  C. Các mạng do loài nhện tạo ra bên trong thùng máy.
+  D. Các máy tính được đặt chung trong một phòng.
+
+Q13: Phát biểu nào là sai về Virus máy tính ?
+  A. Có khả năng phá hoại đối với các sản phẩm tin học
+  B. Có khả năng tự giấu kín và tự sao chép
+  C. Là một chương trình máy tính do con người tạo ra
+  D. Tự động biến mất sau một khoản thời gian
+
+Q14: TCP/IP là _____
+  A. 1 giao thức
+  B. 1 bộ giao thức
+  C. 1 thiết bị mạng
+  D. 1 phần mềm
+
+Q15: Hình thức lây nhiễm virus máy tính nào không phổ biến?
+  A. Qua các thiết bị di động như đĩa cứng rời, thẻ nhớ, …
+  B. Qua thư điện tử
+  C. Qua mạng internet: vào trang web độc hại, tải phần mềm trên mạng, …
+  D. Tự cài đặt lên máy nội bộ
+
+Q16: Các tác vụ nào sau đây dùng trong phòng chống virus?
+  A. Không dùng hoặc dùng rất nhanh máy tính nên sẽ không có virus
+  B. Dùng các phần mềm chuyên nghiệp trong phòng chống virus và cập nhật các bản vá lỗi thường xuyên
+  C. Không bao giờ kết nối máy tính với các thiết bị ngoại vi để tránh lây nhiễm
+  D. Không cần phòng chống, virus sẽ tự động biến mất khi tắt máy
+
+Q17: Một chương trình máy tính là gì?
+  A. Một tập các bước mà người sử dụng phải tuân theo để mua phần mềm
+  B. một tập hợp các quy tắc về việc sử dụng hợp pháp của phần mềm ứng dụng
+  C. Thiết lập các quy tắc về việc sử dụng hợp pháp của phần mềm ứng dụng
+  D. Chuỗi các hướng dẫn được viết để thực hiện các nhiệm vụ cụ thể
+
+Q18: Ta nhận được gì khi mua một chương trình phần mềm?
+  A. Các quyền chia sẻ chương trình với người dùng khác
+  B. Giấy pháp cho phép cài đặt và sử dụng chương trình phần mềm
+  C. Mã nguồn của chương trình
+  D. Quyền bán các chương trình phần mềm cho người khác
+
+Q19: Firmware là gì?
+  A. Một mã số nhận dạng mà nhà cung cấp sản phẩm gắn vào linh kiện phần cứng
+  B. Được lập trình và được nhúng vào trong một thiết bị phần cứng
+  C. Một bảo hành được cung cấp với một thiết bị phần cứng
+  D. Một tên gọi khác cho phần cứng đặc biệt nhỏ như một linh kiện
+
+Q20: Phát biểu nào sau đây là đúng về bộ nhớ RAM?
+  A. Không thể nâng cấp
+  B. Cho phép đọc ghi xoá thông tin
+  C. Khi mất điện dữ liệu trong RAM không bị mất
+  D. Hệ thống vẫn hoạt động khi thiếu RAM
+
+Q21: Cho các đơn vị đo lường sau: MegaByte (MB), Byte (B), GigaByte (GB), KiloByte (KB). Hãy sắp xếp các đơn vị đo lường từ nhỏ đến lớn.
+  A. B – KB - MB - GB
+  B. KB – B – MB - GB
+  C. GB – KB – MB - B
+  D. MB – KB – GB - B
+
+Q22: Đâu không phải là đơn vị thể hiện dung lượng bộ nhớ trong máy tính?
+  A. GigaByte (GB)
+  B. Bit (b)
+  C. ZettaByte (ZB)
+  D. GigaHertz (GHz)
+
+Q23: Nhìn vào các tham số cấu hình của một máy tính: 1.8Ghz, 20GB, 1GB. Con số 20Gb là thống số gì?
+  A. Tốc độ xử lý của CPU
+  B. Tốc độ vòng quay của ổ cứng
+  C. Dung lượng của ổ đĩa cứng
+  D. Dung của tối đa của đĩa DVD mà máy có thể đọc được
+
+Q24: ROM là từ viết tắt của ________
+  A. Storage Of Memory
+  B. Resources Of Memory
+  C. Read Only Memory
+  D. Random Output Measure
+
+Q25: Bộ nhớ truy nhập trực tiếp RAM được viết tắt từ, bạn sử dụng lựa chọn nào?
+  A. Read Access Memory
+  B. Random Access Memory
+  C. Rewrite Access Memory
+  D. Cả 3 câu đều đúng
+
+Q26: Bộ nhớ RAM và ROM là bộ nhớ gì?
+  A. Primary memory
+  B. Receive memory
+  C. Secondary memory
+  D. Random access
+
+Q27: GUI cho phép giao tiếp với máy tính bằng hình ảnh và chữ viết. GUI là viết tắt của ___
+  A. Graphics User Interaction
+  B. Good User Interface
+  C. Graphical User Interface
+  D. Great User Interface
+
+Q28: Phát biểu nào sau đây sai?
+  A. Mạng là môi trường nhiều người dùng
+  B. Mạng là môi trường đa nhiệm
+  C. Mạng là môi trường phân tán
+  D. Việc chia sẽ dữ liệu trên mạng là không an toàn
+
+Q29: Hệ thống số nào được Máy tính sử dụng chính?
+  A. Hệ Nhị phân
+  B. Hệ Bát phân
+  C. Hệ Thập lục phân
+  D. Hệ Thập phân
+
+Q30: Đâu không phải là trách nhiệm cá nhân của người dùng?
+  A. Đảm bảo bảo mật thông tin cá nhân
+  B. Đảm bảo độ mạnh của mật khẩu (nếu có) và đổi mật khẩu thường xuyên
+  C. Đảm bảo chia sẻ tài nguyên đúng người và đúng việc
+  D. Quản lý các người dùng khác
+
+Q31: Phát biểu nào sau đây về thiết bị nhập (input)/xuất (output) của một hệ thống máy tính là sai?
+  A. Chuyển đổi dữ liệu từ thế giới thực sang dạng số (input) và ngược lại (output)
+  B. Có thể là bàn phím, chuột, webcam (input) và màn hình (output)
+  C. Không bao gồm mainboard máy tính
+  D. Bộ xử lý trung tâm cũng là một thiết bị nhập
+
+Q32: Loại máy tính nào được dùng để chạy những phần mềm chuyên môn hóa hoặc để chia sẽ tài nguyên, quản lý nguồn dữ liệu lớn?
+  A. Server
+  B. Desktop
+  C. Netbook
+  D. Tablet
+
+Q33: Ngôn ngữ nào sau đây không thuộc Ngôn ngữ được lập trình trên máy tính:
+  A. Ngôn ngữ máy
+  B. Ngôn ngữ cấp cao
+  C. Ngôn ngữ hướng đối tượng
+  D. Ngôn ngữ tự nhiên
+
+Q34: Mục đích chủ yếu của chính sách an ninh thông tin của một tổ chức là gì?
+  A. Quản lý việc đầu tư của công ty
+  B. Theo dõi và kiểm soát thông tin, dữ liệu nhạy cảm
+  C. Mô tả hoạt động kinh doanh
+  D. Thu nhập thông tin thị trường
+
+Q35: Nếu một máy tính bị nghi ngờ là nhiễm virus thì cách thức tốt nhất để kiểm tra và diệt virus là gì?
+  A. Cài đặt lại hệ điều hành, sau đó cài đặt lại tất cả các chương trình ứng dụng khác
+  B. Cài đặt một chương trình chống virus, quét virus các ổ đĩa của máy tính và cho chương trình này loại bỏ virus
+  C. Lưu trữ dự phòng các tệp tin của máy tính và hồi phục chúng bằng việc sử dụng những tập tin dự phòng này
+  D. Khởi động lại máy tính và sau đó xóa tất cả những tập tin bị nghi ngờ nhiễm virus
+
+Q36: Vấn đề sức khỏe phổ biến của người sử dụng máy tính là các chấn thương cổ tay. Nguyên nhân của chấn thương thông thường là gì?
+  A. Ghế không điều chỉnh
+  B. Sử dụng bàn phím lâu
+  C. Vị trí màn hình đặt sai
+  D. Sử dụng hàng ngày một thiết bị đỡ cổ tay
+
+Q37: Trong những tình huống hoặc lĩnh vực nào sau đây, con người làm việc tốt hơn máy tính
+  A. Tính toán
+  B. Những công việc được tự động hóa
+  C. Nhận dạng
+  D. Những nơi nguy hiểm
+
+Q38: Theo bạn, câu nào sau đây không thể hiện ưu điểm của làm việc từ xa (Tele-working)
+  A. Giảm thời gian đi lại
+  B. Khả năng tập trung vào công việc
+  C. Tăng cường sự liên hệ trực tiếp
+  D. Giảm không gian văn phòng
+
+Q39: Lựa chọn nào sau đây chỉ ra sự khác biệt chính xác giữa phần mềm ứng dụng và phần mềm hệ điều hành
+  A. Phần mềm ứng dụng cần nhiều không gian trong ổ cứng hơn phần mềm hệ điều hành để chạy
+  B. Phần mềm hệ điều hành cần phần mềm ứng dụng để chạy
+  C. Phần mềm hệ điều hành cần nhiều bộ nhớ hơn phần mềm ứng dụng để chạy
+  D. Phần mềm ứng dụng cần phần mềm hệ điều hành để chạy
+
+Q40: Lợi thế của mua hàng trực tuyến so với mua hàng bình thường ở cửa hàng là gì?
+  A. Việc thanh toán đảm bảo an ninh hơn
+  B. Việc xác định tình trạng của hàng hóa dễ dàng hơn
+  C. Có thể mua hàng trong suốt 24h trong một ngày
+  D. Hàng hóa đã mua dễ trả lại hơn
+
+Q41: Máy tính có thể giúp con người thực hiện
+  A. Chuyển tiền qua mạng máy tính của ngân hàng
+  B. Học tập mọi nơi, mọi lúc.
+  C. Hệ thống thẻ tín dụng
+  D. Tất cả các mục trên.
+
+Q42: Dãy số nào biểu diễn dữ liệu hệ nhị phân
+  A. 01010000
+  B. 00120000
+  C. 00fe0001
+  D. 000A110
+
+Q43: CPU có nghĩa là
+  A. Mạch điện tử nhỏ bé của máy tính
+  B. Phần mềm quyết định các bước thao tác của máy tính
+  C. Control Processing Unit
+  D. Central Processing Unit
+
+Q44: Virus máy tính
+  A. Chỉ hoạt động khi phần mềm bị sao chép trái phép.
+  B. Là một chương trình máy tính
+  C. Là phần cứng chỉ phá hoại các phần khác
+  D. Là một loại nấm mốc trên bề mặt đĩa
+
+Q45: Trong những tình huống nào sau đây, máy tính thực thi công việc tốt hơn con người
+  A. Khi dịch một cuốn sách
+  B. Khi chẩn đoán bệnh
+  C. Khi phân tích tâm lý một con người
+  D. Khi thực hiện một phép toán phức tạp
+
+Q46: Theo bạn, các phần mềm sau thuộc nhóm phần mềm nào: MS Word, MS Excel, MS Access, MS PowerPoint, MS Internet Explorer
+  A. Nhóm phần mềm ứng dụng
+  B. Nhóm phần mềm hệ thống
+  C. Nhóm phần mềm CSDL
+  D. Nhóm phần mềm hệ điều hành
+
+Q47: Câu nào chưa đúng trong số các câu sau?
+  A. Phần mềm thương mại – commercial software: có đăng ký bản quyền : không cho phép sao chép dưới bất kỳ hình thức nào.
+  B. Phần mềm chia sẻ - Shareware: có bản quyền, dùng thử trước khi mua. Nếu muốn tiếp tục sử dụng chương trình thì được khuyến khích trả tiền cho tác giả.
+  C. Phần mềm miễn phí - Freeware: cho phép người khác tự do sử dụng hoàn toàn hoặc theo một số yêu cầu bắt buộc. Ví dụ phải kèm tên tác giả …
+  D. Phần mềm nguồn mở - Open source software: công bố một phần mã nguồn để mọi người tham gia phát triển
+
+Q48: Đâu là một ví dụ của chính sách mật khẩu tốt
+  A. Chọn một mật khẩu có ít hơn 6 mẫu tự
+  B. Mật khẩu phải giống lý lịch người sử dụng (ví dụ ngày tháng năm sinh, quê quán)
+  C. Không bao giờ cho người khác biết mật khẩu của bạn
+  D. Chỉ thay đổi mật khẩu sau một thời gian dài
+
+Q49: Ký hiệu Hz có nghĩa là gì?
+  A. Tốc độ xung nhịp bên trong của máy tính trong mỗi chu kỳ
+  B. Tốc độ kết nối Internet
+  C. Số lượng dữ liệu có thể được lưu trữ trên máy tính
+  D. Tốc độ quay của quạt chip
+
+Q50: Dịch vụ Internet được chính thức cung cấp tại Việt Nam vào năm nào?
+  A. 1995
+  B. 1996
+  C. 1997
+  D. 1998
+

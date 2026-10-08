@@ -1,0 +1,300 @@
+Q1: Trong Microsoft Word, tổ hợp phím nào sau đây chọn toàn bộ tài liệu?
+  A. Alt+A
+  B. Shift+Ctrl+A
+  C. Ctrl+A
+  D. Alt+F8
+
+Q2: Trong Microsoft Word, tổ hợp phím tắt để di chuyển con trỏ về cuối tài liệu?
+  A. Ctrl+End
+  B. Ctrl+Page Down
+  C. End
+  D. Page Down
+
+Q3: Phím nào sau đây đưa con nháy về đầu dòng hiện hành trong Microsoft Word?
+  A. Ctrl+Home
+  B. Ctrl+Page Up
+  C. Home
+  D. End
+
+Q4: Phím tắt để di chuyển con trỏ về đầu tài liệu trong Microsoft Word?
+  A. Ctrl+End
+  B. Ctrl+Home
+  C. Home
+  D. Ctrl+Page Up
+
+Q5: Trong Microsoft Word, câu nào sau đây là không đúng trong trường hợp định dạng đoạn - Paragraph?
+  A. Bấm nút Center trên thanh công cụ sẽ canh đoạn hiện hành hoặc đã chọn vào giữa trang.
+  B. Khoảng cách canh cột mặc nhiên là ½ inch.
+  C. Khi đặt một nút canh cột nó sẽ có tác dụng trên tất cả các đoạn văn bản trong tài liệu.
+  D. Hai loại canh lề đặc biệt là: First Line và Hanging trong Paragraph.
+
+Q6: Với Microsoft Word, để định dạng hình ảnh với văn bản, ta ấn chuột phải vào hình ành và chọn _____
+  A. AutoShape
+  B. Format AutoShape
+  C. Format Picture
+  D. Auto Picture
+
+Q7: Cách nhanh nhất để chọn một từ trong Microsoft Word?
+  A. Kéo chuột qua từ đó.
+  B. Di chuyển điểm nháy đến chữ đầu, giữ phím shift và dùng các phím mũi tên.
+  C. Bấm chọn chức năng Select Word Wizard trên thanh công cụ và làm theo hường dẫn.
+  D. Nhấp đúp vào từ
+
+Q8: Trong Microsoft Word, thao tác nào để sao chép định dạng và áp đặt định dạng cho nhiều dòng liên tiếp ?
+  A. Bấm nút Format Painter trên thanh công cụ.
+  B. Bấm đúp nút Format Painter trên thanh công cụ. .
+  C. Không thực hiện được
+  D. Mở hộp thoại Copy and Apply Formatting bắng cách dùng lệnh Format - Copy Formatting từ menu
+
+Q9: Phát biểu nào sau đây là đúng khi sử dụng phím Enter trong Microsoft Word?
+  A. Kết thúc đoạn văn hiện tại và bắt đầu một đoạn văn mới.
+  B. Tài liệu sẽ sang trang mới.
+  C. Đoạn văn sẽ qua dòng mới nhưng chưa kết thúc đoạn.
+  D. Nếu đã chia cột thì đoạn văn sẽ bị cắt qua cột mới.
+
+Q10: Trong Microsoft Word, sử dụng tổ hợp phím Shift+Enter có chức năng gì?
+  A. Kết thúc đoạn văn hiện tại và bắt đầu một đoạn văn mới.
+  B. Tài liệu sẽ sang trang mới.
+  C. Đoạn văn sẽ qua dòng mới nhưng chưa kết thúc đoạn.
+  D. Nếu đã chia cột thì đoạn văn sẽ bị cắt qua cột mới.
+
+Q11: Trong Microsoft Word, sử dụng tổ hợp phím Ctrl+Enter có chức năng gì?
+  A. Kết thúc đoạn văn hiện tại và bắt đầu một đoạn văn mới.
+  B. Tài liệu sẽ sang trang mới.
+  C. Đoạn văn sẽ qua dòng mới nhưng chưa kết thúc đoạn.
+  D. Nếu đã chia cột thì đoạn văn sẽ bị cắt qua cột mới.
+
+Q12: Trong Microsoft Word, để nhập dữ liệu và di chuyển trong table, phát biểu nào sau đây là đúng?
+  A. Tab để di chuyển qua ô kế tiếp, Shift+Tab để đi theo hướng ngược lại.
+  B. Enter để di chuyển qua ô kế tiếp, Shift+enter để đi theo hướng ngược lại.
+  C. Mũi tên phải để di chuyển qua ô kế tiếp, mũi tên trái để đi theo hướng ngược lại.
+  D. Mũi tên lên để di chuyển qua ô kế tiếp, mũi tên xuống để đi theo hướng ngược lại.
+
+Q13: Trong Microsoft Word, Style là gì?
+  A. Cùng nghĩa với style trong thế giới thời trang
+  B. Một tập hợp các định dạng lưu trữ thành một tên gọi riêng và dễ dàng áp đặt lên các đối tượng khác bằng một thao tác duy nhất.
+  C. Một loại tài liệu đặc biệt.
+  D. Một thành phần định dạng chỉ dùng trong trang Web.
+
+Q14: Cách nào sau đây dùng để chọn nhiều đối tượng trên tài liệu trong Microsoft Word?
+  A. Bấm nút Select Object trên thanh công cụ, bấm các đối tượng cần chọn, nhấn enter khi chọn xong.
+  B. Giữ phím Shift khi chọn mỗi đối tượng.
+  C. Chỉ có thể chọn một đối tượng mỗi lần.
+  D. Bấm nút mũi tên trên thanh công cụ Drawing và kéo một hình chữ nhật bao quanh các đối tượng cần chọn.
+
+Q15: Trong Microsoft Word các thành phần Block Arrows, Stars and Banners, và Callouts là các ví dụ của _____
+  A. Các kiểu trò chơi xây dựng của trẻ em
+  B. Các chủ đề Clip art trong bộ sưu tập Microsoft Clip Gallery.
+  C. Các chủ đề AutoShape .
+  D. Một thuật ngữ kỹ thuật chưa xác định.
+
+Q16: Khi soạn thảo văn bản trong Microsoft Word, để khai báo thời gian tự lưu văn bản, ta thực hiện _____
+  A. File - Options - Save chọn thời gian tại mục Save AutoRecover info every
+  B. Home - Options - Save chọn thời gian tại mục Save AutoRecover info every
+  C. View - Options - Save chọn thời gian tại mục Save AutoRecover info every
+  D. Insert - Options - Save chọn thời gian tại mục Save AutoRecover info every
+
+Q17: Trong Microsoft Word để chèn header hoặc footer trên trang văn bản, ta thực hiện _____
+  A. View - Header and Footer
+  B. Thẻ Insert - Header and Footer - nhấn nút Header hoặc Footer
+  C. Insert - Header and Footer
+  D. Format- Header and Footer
+
+Q18: Trong Microsoft Word để bật/tắt hiển thị thanh thước kẻ trên của sổ soạn thảo, ta thực hiện _____
+  A. View – Ruler
+  B. View - Outline
+  C. View - Show/Hide - đánh dấu/bỏ đánh dấu vào mục Ruler
+  D. Thẻ Insert - đánh dấu vào mục Ruler
+
+Q19: Trong Microsoft Word thao tác nào không thể tạo điểm dừng Tabs?
+  A. Bấm chuột trái trên thanh thước tại vị trí muốn đặt Tab
+  B. Thẻ Page Layout - Paragraph - nhấn nút mũi tên bên dưới – Tabs
+  C. Thẻ Home - Paragraph - nhấn nút mũi tên bên dưới - Tabs
+  D. Thẻ View – Tabs
+
+Q20: Trong Microsoft Word khi lưu văn bản mới thì phần mở rộng của văn bản đó ở dạngnào?
+  A. *.doc
+  B. *.docx
+  C. *.txtx
+  D. *.pdfx
+
+Q21: Tổ hợp phím Ctrl+Z trong Microsoft Word dùng để:
+  A. Hủy thao tác Đóng cửa sổ đang mở
+  B. Hủy kết quả của thao tác hoặc lệnh phía trước gần nhất kết quả hiện tại
+  C. Đóng tập tin đang mở
+  D. Nhảy đến một trang văn bản
+
+Q22: Microsoft Word là một _____
+  A. Phần mềm hệ thống
+  B. Phần mềm bảng tính
+  C. Phần mềm quản lý
+  D. Phần mềm ứng dụng
+
+Q23: Tính năng nào sau đây không đúng là của Microsoft Word?
+  A. Lưu và đọc các tập tin văn bản dạng .doc, .docx
+  B. Lưu và đọc các tập tin dạng .pdf
+  C. Lưu và đọc các tập tin HTML
+  D. Lưu và đọc các tập tin dạng .txt
+
+Q24: Tổ hợp phím tắt nào sau đây được dùng để lưu văn bản trong Microsoft Word?
+  A. Ctrl+X
+  B. Ctrl+C
+  C. Ctrl+V
+  D. Ctrl+S
+
+Q25: Trong Microsoft Word, nút nào sau đây được dùng để sử dụng chức năng Tab trong table
+  A. Tab
+  B. Shift+Tab
+  C. Ctrl+Tab
+  D. Alt+Tab
+
+Q26: Trong Microsoft Word, khi giữ phím Ctrl và bấm chuột trái vào trong văn bản có tác dụng gì?
+  A. Chọn một từ tại vị trí con trỏ
+  B. Chọn một câu tại vị trí con trỏ
+  C. Chọn một đoạn văn tại vị trí con trỏ
+  D. Di chuyển con nháy đến vị trí con trỏ
+
+Q27: Trong Microsoft Word, WordArt là _____
+  A. Một đối tượng chữ nghệ thuật
+  B. Một đối tượng hình ảnh
+  C. Một đối tượng văn bản với kích thước chữ to hơn bình thường
+  D. Một công cụ dùng để vẽ chữ
+
+Q28: Trong Microsoft Word, các đường gạch chân xanh-đỏ xuất hiện khi gõ văn bản có ý nghĩa gì?
+  A. Do máy bị nhiễm virus
+  B. Gạch màu xanh là do sai chính tả, màu đỏ là do ngữ pháp có vấn đề
+  C. Gạch màu xanh là do ngữ pháp có vấn đề, màu đỏ là do sai chính tả
+  D. Word tự động thêm cho đẹp
+
+Q29: Trong Microsoft Word, chức năng nào được dùng để trộn các ô trong bảng biểu?
+  A. Cell Margins
+  B. Split Cells
+  C. Mail Merge
+  D. Merge Cells
+
+Q30: Chức năng Recent trong thẻ File của Microsoft Word có chức năng gì ?
+  A. Xem thông tin văn bản hiện tại
+  B. Xem các văn bản đã mở gần đây
+  C. Mở ra một trang văn bản mới
+  D. Xem bố cục của văn bản trước khi in
+
+Q31: Trong Microsoft Word, phát biểu nào sau đây là sai?
+  A. Màu trang giấy của Word có thể đổi bằng chức năng Shading
+  B. Chức năng Save và Save As là giống nhau khi lưu văn bản lần đầu
+  C. Chức năng Paragraph được dùng để định dạng 1 hoặc nhiều đoạn văn
+  D. Kích thước chữ nhỏ nhất mà Word cho phép là 1
+
+Q32: Trong soạn thảo Microsoft Word, đơn vị đo lường nào của thước không hỗ trợ ?
+  A. Centimeters
+  B. Points
+  C. Inches
+  D. Pixel
+
+Q33: Trong soạn thảo Microsoft Word, muốn trình bày văn bản trong khổ giấy theo hướng ngang ta chọn mục
+  A. Left
+  B. Portrait
+  C. Right
+  D. Landscape
+
+Q34: Trong soạn thảo Microsoft Word, nội dung của vùng header sẽ
+  A. Được in ở đầu mỗi trang
+  B. Được in ở bên phải mỗi trang
+  C. Được in ở bên trái mỗi trang
+  D. Được in ở cuối mỗi trang
+
+Q35: Khả năng nào sau đây không có trong Microsoft Word?
+  A. Vẽ các cạnh của bảng (draw table) có thể dùng để tách các ô (split cells)
+  B. Xoá các cạnh của bảng có thể dùng để trộn các ô (merge cells)
+  C. Có thể viết chữ theo hướng xéo trong một ô
+  D. Có thể vẽ đường viền theo kiểu răng cưa
+
+Q36: Có bao nhiêu kiểu margin(lề) trong một trang là Microsoft Word?
+  A. Hai margin: header và footer
+  B. Bốn margin: top, bottom, left, right
+  C. Hai margin: landscape(ngang) và Portrait (đứng)
+  D. Hai margin: top và bottom
+
+Q37: Trong Microsoft Word, câu nào sau đây sai?
+  A. Có thể chèn văn bản (text) vào hầu hết đối tượng vẽ (shape)
+  B. Có thể chuyển đổi từ đối tượng vẽ này thành đối tượng vẽ khác nhanh chóng
+  C. Có thể nhóm (group) các đối tượng vẽ với nhau
+  D. Có thể chia cột cho văn bản trong đối tượng Shape
+
+Q38: Trong Microsoft Word, câu nào sau đây sai?
+  A. Có thể chèn các công thức toán học vào văn bản và giải các công thức này tự động
+  B. Có thể chèn các ký tự đặc biệt có trong các font chữ trong máy
+  C. Có thể định dạng hiệu ứng chữ bằng WordArt
+  D. Có thể làm việc với bảng tính như trong Excel
+
+Q39: Trong Microsoft Word, để ngắt trang ta thực hiện _____
+  A. Thẻ View - Page Break
+  B. Thẻ References - Captions – Break
+  C. Thẻ Review - Create - Page Break
+  D. Thẻ Insert - Pages - Page Break
+
+Q40: Trong Microsoft Word, để chèn biểu đồ vào văn bản, ta thực hiện:
+  A. Thẻ References - Illustrations - Chart
+  B. Thẻ Insert - Illustrations - Chart
+  C. Thẻ Mailings - Illustrations - Chart
+  D. Thẻ Review - Illustrations - Chart
+
+Q41: Trong Microsoft Word, có các chế độ in ấn nào?
+  A. In toàn bộ văn bản hoặc các trang chẵn lẻ riêng biệt
+  B. Không in các trang được chỉ định
+  C. Có thể in hai mặt trên bất kỳ máy in nào một cách tự động
+  D. Chỉ in phần Header/Footer
+
+Q42: Trong Microsoft Word, chức năng nào dùng để ngắt cột?
+  A. Chọn thẻ Insert - Page Break
+  B. Sử dụng phím tắt Ctrl+Enter
+  C. Chọn thẻ Page Layout - Breaks - Column
+  D. Chọn thẻ Page Layout - Columns
+
+Q43: Trong Microsoft Word, ký hiệu trên thanh thước |_ có nghĩa là gì?
+  A. Canh lề trái cho đoạn văn
+  B. Canh lề phải cho đoạn văn
+  C. Canh văn bản ở mép trái tại vị trí TAB
+  D. Canh văn bản ở mép phải tại vị trí TAB
+
+Q44: Trong Microsoft Word, ký hiệu trên thanh thước_|_có nghĩa là gì?
+  A. Canh lề trái cho đoạn văn
+  B. Canh lề phải cho đoạn văn
+  C. Canh văn bản ở giữa tại vị trí TAB
+  D. Canh văn bản ở mép phải tại vị trí TAB
+
+Q45: Trong Microsoft Word, ký hiệu trên thanh thước _| có nghĩa là gì?
+  A. Canh lề trái cho đoạn văn
+  B. Canh lề phải cho đoạn văn
+  C. Canh văn bản ở mép trái tại vị trí TAB
+  D. Canh văn bản ở mép phải tại vị trí TAB
+
+Q46: Trong Microsoft Word, sau khi chọn toàn bộ văn bản trong bảng (table) và bấm nút Delete thì chuyện gì sẽ xảy ra?
+  A. Xóa toàn bộ văn bản và table
+  B. Chỉ xóa toàn bộ văn bản
+  C. Chỉ xóa toàn bộ định dạng
+  D. Chỉ xóa table
+
+Q47: Trong Microsoft Word, muốn tạo chữ rơi cho văn bản, ta thực hiện
+  A. Page layout – Dropcap
+  B. View – Dropcap
+  C. Home – Dropcap
+  D. Insert – Dropcap
+
+Q48: Trong Microsoft Word, phát biểu nào sau đây là đúng nhất ?
+  A. Có thể đặt lại chỉ mục của chức năng Numbering nhưng phải qua trang văn bản khác
+  B. Bullets và Numbering đều có chức năng tương tự nhau là đánh dấu đầu mỗi đoạn văn
+  C. Canh lề của chức năng Bullets khi được tạo ra là cố định và không thể thay đổi
+  D. Không thể sử dụng hình ảnh trong máy tình trong chức năng Bullets
+
+Q49: Trong Microsoft Word, tạo Header cho văn bản có nghĩa là?
+  A. Tạo tiêu đề bên lề trái của văn bản
+  B. Tạo tiêu đề trên đầu văn bản
+  C. Tạo tiêu đề bên lề phải của văn bản
+  D. Tạo tiêu đề dưới chân văn bản
+
+Q50: Chức năng Home → Clear All Formatting được sử dụng để?
+  A. Định dạng ký tự
+  B. Loại bỏ toàn bộ định dạng
+  C. Xóa văn bản
+  D. Định dạng văn bản
+

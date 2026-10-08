@@ -1,0 +1,300 @@
+Q1: WWW là viết tắt của _____
+  A. World Wide Wed
+  B. World Wide Web
+  C. World Wild Wed
+  D. Word Wide Web
+
+Q2: World Wide Web là gì?
+  A. Là một hệ thống các máy chủ cung cấp thông tin đến bất kỳ các máy tính nào trên Internet có yêu cầu
+  B. Là máy dùng để đặt trang Web trên Internet
+  C. Là một dịch vụ của Internet
+  D. Là một website
+
+Q3: Chương trình dùng để xem các trang Web được gọi là _____
+  A. Trình duyệt Web
+  B. Bộ duyệt Web
+  C. Chương trình xem Web
+  D. Phần mềm xem Web
+
+Q4: Tên miền gov.vn được dùng cho _____
+  A. Chính phủ, các cơ quan hành chính, tổ chức nhà nước trên lãnh thổ Việt Nam.
+  B. Tất cả các cơ quan, tổ chức...
+  C. Các đơn vị, tổ chức giáo dục
+  D. Các tổ chức phi chính phủ.
+
+Q5: Mục đích chính của việc đưa ra tên miền
+  A. Dễ nhớ
+  B. Tên miền đẹp hơn địa chỉ IP
+  C. Thiếu địa chỉ IP
+  D. Tên miền dễ xử lý bởi máy tính hơn
+
+Q6: Địa chỉ Website nào sau đây không hợp lệ?
+  A. www.hochiminh.gov.vn
+  B. dhbk.hochiminh.edu.vn
+  C. www@hochiminh.net.vn
+  D. www.hochiminh.com.vn
+
+Q7: Đâu không phải là Trình duyệt Web?
+  A. Mozilla Firefox
+  B. Google Chrome
+  C. Apple Safari
+  D. Adobe Flash
+
+Q8: Tên miền edu.vn được dùng cho
+  A. Chính phủ, các cơ quan hành chính, tổ chức nhà nước trên lãnh thổ Việt Nam.
+  B. Tất cả các cơ quan, tổ chức...
+  C. Các đơn vị, tổ chức giáo dục trên lãnh thổ Việt Nam
+  D. Các tổ chức phi chính phủ
+
+Q9: Trong lĩnh vực Công nghệ thông tin, ISP là viết tắt của _____
+  A. Internet Service Provider
+  B. International Specialty Products
+  C. Internet Server Provider
+  D. International Sports Properties
+
+Q10: Trang chủ là gì?
+  A. Là một trang web đầu tiên của Website
+  B. Là tập hợp các trang web có liên quan đến nhau
+  C. Là địa chỉ của Website
+  D. Là một máy chủ
+
+Q11: Web Server là gì?
+  A. Là máy chủ dùng để đặt các trang Web trên Internet
+  B. Là máy tính đang được sử dụng để xem nội dung các trang web
+  C. Là một dịch vụ của Internet
+  D. Là một website
+
+Q12: IAP(Internet Access Provider) là gì?
+  A. Là nhà cung cấp dịch vụ Internet
+  B. Là nhà cung cấp cổng truy cập Internet cho các mạng
+  C. Là nhà cung cấp thông tin trên Internet
+  D. Là nhà cung cấp máy chủ
+
+Q13: ISP(Internet Service Provider) là gì?
+  A. Là nhà cung cấp dịch vụ Internet
+  B. Là nhà cung cấp công truy cập Internet cho các mạng
+  C. Là nhà cung cấp thông tin trên Internet
+  D. Là nhà cung cấp máy chủ
+
+Q14: Web site là _____
+  A. Kết hợp nhiều trang Web trên nhiều địa chỉ khác nhau
+  B. Kết hợp nhiều trang Web trên một địa chỉ duy nhất
+  C. Là một trang Web khi mở
+  D. Tất cả các ý trên
+
+Q15: Điều kiện để kết nối vào Internet qua đường dây điện thoại cố định là:
+  A. Phải có máy tính
+  B. Phải có thuê bao điện thoại cố định
+  C. Phải có modem
+  D. Cả 3 câu đều đúng
+
+Q16: Mạng lntranet là gì?
+  A. Là một mạng máy tính nối giữa 2 máy với nhau
+  B. Là sự kết nối các máy tính của nhiều cơ quan
+  C. Là sự kết nối các máy tính trên phạm vi toàn cầu
+  D. Là một cái máy tính
+
+Q17: HTTP là gì?
+  A. Là giao thức truyền siêu văn bản
+  B. Là ngôn ngữ để soạn thảo nội dung các trang Web
+  C. Là địa chỉ của trang Web
+  D. Là tên của trang Web
+
+Q18: Khi làm việc trên một dự án của trường học, việc làm một bài thuyết trình trực tuyến cho những đối tượng khác cùng biết là một ví dụ của ______
+  A. Thu thập thông tin
+  B. Tổ chức thông tin
+  C. Đánh giá thông tin
+  D. Chia sẻ thông tin
+
+Q19: Khi muốn lấy các nội dung từ mạng xuống máy tính, ta sử dụng lựa chọn nào?
+  A. Gửi thư
+  B. Tải xuống
+  C. Tải lên
+  D. Kết nối đến ứng dụng khác
+
+Q20: Sắp xếp theo thứ tự các thao tác để đăng nhập vào hộp thư điện tử đã có:1.                                                                 Gõ tên đăng nhập và mật khẩu                                                        2. Truy cập vào trang Web cung cấp dịch vụ thư điện tử           3. Mở Internet                                                                                      4. Nháy chuột vào nút Đăng nhập
+  A. 1 - 2 - 3 - 4
+  B. 3 - 2 - 1 - 4
+  C. 4 - 3 - 2 - 1
+  D. 2 - 3 - 1 - 4
+
+Q21: Trình bày cú pháp địa chỉ thư điện tử tổng quát?
+  A. lop9b > @ < yahoo.com>
+  B. <Tên đăng nhập > @ < Tên máy chủ lưu hộp thư>
+  C. <Tên đăng nhập > @ < gmail.com>
+  D. <Tên đăng nhập>
+
+Q22: Nhà cung cấp dịch vụ thư điện tử là:
+  A. www.google.com.vn
+  B. www.yahoo.com
+  C. www.gmail.com
+  D. B và C đúng
+
+Q23: Địa chỉ thư điện tử được phân cách bởi kí hiệu:
+  A. $
+  B. @
+  C. #
+  D. &
+
+Q24: Để tạo một hộp thư điện tử mới:
+  A. Người sử dụng phải có sự cho phép của cơ quan quản lý dịch vụ Internet
+  B. Người sử dụng phải có ít nhất một địa chỉ Website
+  C. Người sử dụng không thể tạo cho mình một hộp thư mới
+  D. Người sử dụng có thể đăng ký qua các nhà cung cấp dịch vụ Internet hoặc thông qua các địa chỉ Website miễn phí trên Internet tại bất kỳ đâu trên thế giới
+
+Q25: Email là viết tắt của
+  A. Exchange Mail
+  B. Electronic Mail
+  C. Electrical Mail
+  D. Else Mail
+
+Q26: Thư mục mặc định được hiển thi sau khi đăng nhập thành công vào hộp thư cá nhân
+  A. Hộp thư đi
+  B. Hộp thư đến
+  C. Thư đã gửi (Mục đã gửi)
+  D. Hộp thư nháp
+
+Q27: Trong soạn thảo Email, muốn đính kèm tập tin ta bấm nút nào?
+  A. File – Save
+  B. Copy
+  C. Attachment
+  D. Send
+
+Q28: Thư điện tử là gì?
+  A. Hình thức gửi các thiết bị điện tử qua đường bưu điện
+  B. Hình thức gửi thư qua môi trường Internet
+  C. Hình thức gửi thư đến các nhà cung cấp điện
+  D. Hình thức chuyển các thiết bị điện tử qua đường Internet
+
+Q29: Lợi thế nổi trội của thư điện tử so với thư gửi qua đường bưu điện là gì?
+  A. Thư điện tử luôn có độ an toàn dữ liệu cao hơn
+  B. Có thể chuyển được lượng văn bản lớn hơn nhờ chức năng gắn kèm
+  C. Tốc độ chuyển thư nhanh
+  D. Thư điện tử luôn luôn được phân phát
+
+Q30: Địa chỉ email nào sau đây đúng định dạng?
+  A. Internet.@.gmail.com
+  B. Trungtamdientoan@$.yahoo.com
+  C. photoshop@t5#.ymail.com
+  D. bachkhoa@hotmail.com
+
+Q31: Mục To khi gửi email có ý nghĩa gì?
+  A. Điền tiêu đề của email
+  B. Điền địa chỉ email của bạn để người nhận biết ai là người gửi
+  C. Điền địa chỉ email của một hoặc nhiều người nhận
+  D. Không để làm gì cả
+
+Q32: Điền địa chỉ email vào mục Cc - Carbon Copy để làm gì?
+  A. Sao chép email thành bản giấy than để lưu trữ lại
+  B. Gửi một bản sao email cho người nhận, cho phép tất cả những người nhận khác thấy địa chỉ email của người nhận này
+  C. Gửi một bản sao email cho người nhận, không cho phép những người nhận khác thấy được địa chỉ email của người nhận này
+  D. Sao chép email thành bản bí mật để lưu trữ lại
+
+Q33: Điền địa chỉ email vào mục Bcc - Blind Carbon Copy thì sao?
+  A. Gửi một bản sao email cho người nhận, cho phép tất cả những người nhận khác thấy được địa chỉ email này
+  B. Sao chép email thành bản bí mật để lưu trữ lại
+  C. Sao chép email thành bản giấy than để lưu trữ lại
+  D. Gửi một bản sao email cho người nhận, không cho những người nhận khác được thấy được địa  chỉ email này
+
+Q34: Điều gì xảy ra khi chuyển tiếp - Forward một email bạn nhận được?
+  A. Một bản sao "Copy" của email sẽ được gửi tới người nhận
+  B. Bạn chỉ được chuyển tiếp "Forward" email nếu người gửi ban đầu cho phép
+  C. Email sẽ được gửi tới người nhận và xóa khỏi hộp thư đến "Inbox"
+  D. Một bản sao "Copy" của email sẽ được gửi tới Người gửi ban đầu
+
+Q35: Khi bạn chuyển tiếp email, những ai sẽ nhận được bản sao này?
+  A. Khi bạn chuyển tiếp email, những ai sẽ nhận được bản sao này?
+  B. Cả người nhận và người gửi ban đầu
+  C. Người nhận
+  D. Không ai nhận được email chuyển tiếp
+
+Q36: Khi chuyển tiếp email có đính kèm tập tin, điều gì sẽ xảy ra?
+  A. Email và tệp đính kèm sẽ được gửi riêng thành 2 email khác nhau
+  B. Một bản copy của email và tất cả tệp đính kèm sẽ được gửi tới người nhận
+  C. Email sẽ được gửi tới người nhận, nhưng tập tin đính kèm không được gửi đi
+  D. Không chuyển tiếp email có đính kèm tập tin được
+
+Q37: Khi trả lời email, tiêu đề - Subject của email thường có thêm tiền tố gì?
+  A. Tiêu đề không thay đổi
+  B. RE - Viết tắt của từ Reply - Đáp lại
+  C. AN - Viết tắt của từ Answer - Trả lời
+  D. FW – Viết tắt của từ Forward – Chuyển tiếp
+
+Q38: Tiêu đề khi chuyển tiếp email thường có thêm tiền tố gì?
+  A. Tiêu đề không thay đổi
+  B. CC - Viết tắt của từ Carbon Copy
+  C. FW hoặc FWD - Viết tắt của từ Forward
+  D. RE - Viết tắt của từ Reply - Đáp lại
+
+Q39: Nếu "Reply" người gửi ban đầu sau khi đã chuyển tiếp email đó cho người khác, liệu người gửi ban đầu có xem được email chuyển tiếp không?
+  A. Điều này không xảy ra vì đó là 2 thao tác khác nhau
+  B. Điều này có thể xảy ra với một số dịch vụ email, bạn nên cẩn thận xem trước nội dung khi trả lời
+  C. Bạn không thể trả lời người gửi ban đầu sau khi đã chuyển tiếp email đó
+  D. Hệ thống máy chủ Email không có hổ trợ chức năng này
+
+Q40: Tôi muốn gửi email giống nhau cho nhiều người, nhưng mỗi người đều nhận được lời chào đúng tên riêng của họ, thì làm thế nào?
+  A. Dùng Auto reply - Tự động trả lời
+  B. Dùng Mail merge - Hợp nhất email
+  C. Dùng Mail combine - Ghép email
+  D. Không làm được cho dù có kết hợp với ứng dụng khác
+
+Q41: Web tĩnh là các trang web _____
+  A. Có nội dung không thay đổi
+  B. Chỉ có một trang duy nhất
+  C. Không có video hay ảnh động
+  D. Không có các liên kết đến các trang web khác
+
+Q42: Web động là các trang web _____
+  A. Có khả năng tương tác giữa người dùng và máy chủ
+  B. Có nhiều video, ảnh động
+  C. Có nhiều liên kết đến các trang khác
+  D. Thay đổi theo từng ngày
+
+Q43: Người sử dụng không thể tự lập được hộp thư điện tử nào:
+  A. Google Mail
+  B. Yahoo Mail
+  C. Thư điện tử của trường Đại học Bách Khoa
+  D. Hotmail
+
+Q44: Với thư điện tử, phát biểu nào là sai?
+  A. Có thể gửi 1 thư đến 10 địa chỉ khác nhau .
+  B. 1 người có thể gửi thư cho chính mình, nhiều lần.
+  C. Hai người có thể có địa chỉ thư giống nhau
+  D. Tệp tin đính kèm theo thư có thể chứa virút, vậy nên cần kiểm tra virút trước khi sử dụng.
+
+Q45: Chức năng nào không hỗ trợ khi dùng email miễn phí tại gmail.com
+  A. Đổi tên đăng nhập
+  B. Đổi mật khẩu
+  C. Đính kèm tập tin theo thư
+  D. In thư ra máy in
+
+Q46: Hai người đã tạo được tài khoản thư miễn phí tại địa chỉ gmail.com. Phát biểu nào là sai?
+  A. Hộp thư của cả hai đều nằm trên máy Mail Server của công ty Google
+  B. Mật khẩu mở hộp thư của hai người này phải khác nhau
+  C. Hai người này buộc phải lựa chọn hai tên đăng nhập khác nhau.
+  D. Người này có thể mở được hộp thư của người kia và ngược lại nếu như 2 người biết tên đăng nhập và mật khẩu của nhau.
+
+Q47: Chọn ra khẳng định sai: “Tên miền của các website có máy chủ đặt tại Việt Nam thì _____”
+  A. Bắt buộc phải là Tiếng Việt không dấu (hoặc Tiếng Anh)
+  B. Phải duy nhất và được một tổ chức quản lý tên miền đồng ý và cho phép
+  C. Nhóm cuối cùng của tên miền thường dùng cụm từ “.vn”
+  D. Không được có khoảng trắng trong tên miền
+
+Q48: Thuật ngữ kỹ thuật trong mua và bán hàng qua mạng Internet là gì ?
+  A. Hệ thống điện tử (E-system)
+  B. Mạng điện tử (E-network)
+  C. Thương mại điện tử (E-commerce)
+  D. Thương mại Internet (I-Commerce)
+
+Q49: Internet ảnh hưởng vấn đề gì đến môi trường học tập?
+  A. Việc học từ xa (đào tạo qua mạng) gia tăng
+  B. Số lượng giảng viên được đào tạo gia tăng
+  C. Chất lượng tài liệu nghiên cứu được nâng cao
+  D. Sự tương tác giữa giáo viên và học sinh được tăng cường
+
+Q50: Bạn nhận được một bức thư điện tử chứa tệp tin đính kèm mà bạn không nhận biết ra. Những bước hành động tốt nhất nào bạn sẽ thực hiện từ khía cạnh an ninh
+  A. Mở tệp tin này ra để kiểm tra loại tệp tin
+  B. Chuyển thư này cho ai đó mà bạn nghĩ rằng bạn có thể nhận biết được
+  C. Quét tập tin này bằng chương trình chống virus
+  D. Lưu bản sao tập tin này vào đĩa cứng và mở bản sao này
+

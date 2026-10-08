@@ -1,0 +1,92 @@
+{
+  "1": [],
+  "2": [
+    {
+      "q_idx": 5,
+      "q_title": "Để định vị Taskbar trong trạng thái được định vị tùy ý ta chọn",
+      "img_id": "14FrLP2XBtv01NW9oP-lKeh5yWdQsJ5h6NWV2NYnJkCH7-18"
+    },
+    {
+      "q_idx": 21,
+      "q_title": "Trong hình sau, máy in mặc định được đánh số mấy?",
+      "img_id": "1mQq8mMYOGEY4Msgk0c2LOXHN7YC-w1E6RM3suHVWvcavE2s"
+    },
+    {
+      "q_idx": 22,
+      "q_title": "Số phân vùng ổ cứng nhiều nhất trong máy tính thể hiện ở hình sau là bao nhiêu?",
+      "img_id": "1Y4W6kxrSBhdAoQlSmi9BkxKSDaPPGnMdhoGCh6BS2GuuRNE"
+    },
+    {
+      "q_idx": 23,
+      "q_title": "Trong hình sau, ổ đĩa nào là ổ đĩa quang?",
+      "img_id": "1ev3UVx-pHrBYkPssRsjJjFMtE35jYdEuXaOfmbrMqX5OwDc"
+    },
+    {
+      "q_idx": 39,
+      "q_title": "Thông báo sau cho biết điều gì?",
+      "img_id": "1He-zaHVI1FzCh4GkAje2W-E1Hhszlcii23fAFkEavkFAIS0"
+    },
+    {
+      "q_idx": 42,
+      "q_title": "Thông báo sau cho biết điều gì?",
+      "img_id": "18ekxalb731w_jLbaQMD51_oLNQ8L7gQyZaONpd5mwurJUhg"
+    }
+  ],
+  "3": [],
+  "4": [
+    {
+      "q_idx": 43,
+      "q_title": "Trong Microsoft Word, ký hiệu trên thanh thước |_ có nghĩa là gì?",
+      "img_id": "1o-w5Qmn7EwHbRYf-BLYFPZtSWq77R9HTI7DvegoL8UVROt0"
+    },
+    {
+      "q_idx": 44,
+      "q_title": "Trong Microsoft Word, ký hiệu trên thanh thước_|_có nghĩa là gì?",
+      "img_id": "19-NdJLM3_nwzzwpLoM8EufnviWRVYW7edsCwqBvyBYIdNFY"
+    },
+    {
+      "q_idx": 45,
+      "q_title": "Trong Microsoft Word, ký hiệu trên thanh thước _| có nghĩa là gì?",
+      "img_id": "1zrG2IAzasM7dIXKpslCmpv5XOtgalGfwJA-lmm1orrfmT0Y"
+    }
+  ],
+  "5": [
+    {
+      "q_idx": 11,
+      "q_title": "Trong Microsoft Excel, cho bảng tính có vùng dữ liệu sau khi thực hiện sắp xếp dữ liệu theo chiều tăng dần, thứ tự sắp xếp nào sau đây là đúng?",
+      "img_id": "1Q7PJ8yOJOmXOLpzF3szBOB9UIQvZpFjgXKZmB0UqK9UMZyg"
+    },
+    {
+      "q_idx": 15,
+      "q_title": "Trên thẻ Home của thanh công cụ Riboon trong Microsoft Excel, biểu tượng (Increase Decimal) có ý nghĩa gì cho vùng dữ liệu được lựa chọn",
+      "img_id": "1gTo1c2-39pJtyUNSjTOkjTDqSf0JisZT28TMBFQn5PQeovk"
+    },
+    {
+      "q_idx": 16,
+      "q_title": "Trên thẻ Home của thanh công cụ Riboon trong Microsoft Excel, biểu tượng (Decrease Decimal) có ý nghĩa gì cho vùng dữ liệu được lựa chọn",
+      "img_id": "1CR8Jm4knF3FmwRWycV9eoYlVGGVbyTNPgQlAMHJlATdRfvE"
+    },
+    {
+      "q_idx": 17,
+      "q_title": "Cho bảng số liệu như sau trong Microsoft Excel: Cho biết kiểu định dạng hiển thị dữ liệu ngày nào sau đây được áp dụng tại ô B1",
+      "img_id": "1GbOJKeMJbULCJ8qcSHxGxduyAGUrNvfBkFTUxJevYLu7A1I"
+    },
+    {
+      "q_idx": 28,
+      "q_title": "Cho một worksheet như hình bên, kết quả của công thức =VLOOKUP(4, A1:B5, 2,0) là?",
+      "img_id": "1lw_euybhSz-qKN4FZ3jTEHcucU-vMaYgDp1-svtfJ75MBfQ"
+    },
+    {
+      "q_idx": 46,
+      "q_title": "Với bảng số liệu dưới đay trong Microsoft Excel công thức để tính lương tại ô C2 như thế nào với yêu cầu. Lương= HSL* Lương cơ bản và làm tròn chẵn đơn vị nghìn đồng",
+      "img_id": "1du2WmQQlrzLkcZOs6sgZ-I4689D2Yt2i941D-hy8AFzUDGY"
+    }
+  ],
+  "6": [
+    {
+      "q_idx": 22,
+      "q_title": "Chức năng nào trong nhóm công cụ sau dùng để trình chiếu slide đang thiết kế trong Powerpoint",
+      "img_id": "1JtIWCu8SJbbLCEQMPcKKeSHOQq0Zy_3Ik6axO71yeo2fkJw"
+    }
+  ]
+}

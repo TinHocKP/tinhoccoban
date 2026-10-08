@@ -1,0 +1,300 @@
+Q1: Trong PowerPoint, các hiệu ứng động dạng Entrance(màu xanh lá) là hiệu ứng _____
+  A. Xuất hiện
+  B. Nhấn mạnh
+  C. Biến mất
+  D. Di chuyển
+
+Q2: Trong PowerPoint, các hiệu ứng động dạng Emphasis(màu vàng) là hiệu ứng _____
+  A. Xuất hiện
+  B. Nhấn mạnh
+  C. Biến mất
+  D. Di chuyển
+
+Q3: Trong PowerPoint, các hiệu ứng động dạng Exit (màu đỏ) là hiệu ứng _____
+  A. Xuất hiện
+  B. Nhấn mạnh
+  C. Biến mất
+  D. Di chuyển
+
+Q4: Trong PowerPoint, các hiệu ứng động dạng Motion Path là hiệu ứng _____
+  A. Xuất hiện
+  B. Nhấn mạnh
+  C. Biến mất
+  D. Di chuyển
+
+Q5: Chức năng nào sau đây không có trong PowerPoint?
+  A. Column
+  B. Equation
+  C. Header & Footer
+  D. DropCap
+
+Q6: Trong PowerPoint, khẳng định nào sau đây là sai về vùng ghi chú (Note Page) của PowerPoint?
+  A. Không được hiển thị khi thuyết trình ở chế độ bình thường
+  B. Có thể chèn các đối tượng hình ảnh vào vùng ghi chú
+  C. Có thể in vùng ghi chú khi in bài thuyết trình
+  D. Người thuyết trình không thể xem nội dung trong vùng ghi chú khi bắt đầu thuyết trình
+
+Q7: Trong PowerPoint, thông số nào không có trong chức năng Animation - Timing của PowerPoint?
+  A. Time
+  B. Repeat
+  C. Duration
+  D. Delay
+
+Q8: Trong PowerPoint, phát biểu nào sau đây là sai ?
+  A. SmartArt sẽ tự động tùy chỉnh kích cữ chữ để vừa với kích thước
+  B. Có thể chuyển đổi qua lại giữa SmartArt và Shapes
+  C. Tùy chỉnh các đối tượng SmartArt cũng tương tự như Shapes
+  D. Có thể thểm/bớt các thành phần trong SmartArt tùy ý
+
+Q9: Chức năng Photo Album trong PowerPoint được dùng để
+  A. Lưu tập tin trình chiếu dưới dạng danh sách các ảnh để xem
+  B. Chèn 1 đối tượng hình ảnh vào Slide
+  C. Tạo một danh sách ảnh để sử dụng cho buổi trình chiếu
+  D. Đóng gói các slide trình chiếu thành một tập tin ảnh
+
+Q10: PowerPoint không hỗ trợ lưu với định dạng nào dưới đây
+  A. PDF
+  B. PPTX
+  C. TXT
+  D. WMV
+
+Q11: Chức năng nào vừa có trong Word vừa có trong PowerPoint?
+  A. Action Buttons
+  B. DropCap
+  C. Subscript
+  D. Column
+
+Q12: Trong PowerPoint, chức năng Duration trong hiệu ứng chuyển Slide có ý nghĩa gì?
+  A. Thời gian chờ để chạy qua Slide khác
+  B. Thời gian để Slide xuất hiện hoàn chỉnh
+  C. Thời gian để kết thúc Slide
+  D. Thời gian chờ để chạy hiệu ứng cho các đối tượng trong slide
+
+Q13: Trong PowerPoint, Effect Option là chức năng dùng để _____
+  A. Thểm hiệu ứng động cho đối tượng
+  B. Thểm hiệu ứng chuyển Slide
+  C. Thểm liên kết cho đối tượng
+  D. Thay đổi hướng di chuyển của hiệu ứng
+
+Q14: Trong PowerPoint, phím nào được dùng để dừng bài trình chiếu khi đang trình diễn?
+  A. End
+  B. Page Down
+  C. Home
+  D. Esc
+
+Q15: Trong PowerPoint, để chỉnh chiều của Slide, ta sử dụng chức năng
+  A. Home - Arrange
+  B. Design - Page Setup
+  C. Preview - Compare
+  D. View - Slide Master
+
+Q16: Trong PowerPoint, Để thiết lập các thông số trang in ta thực hiện
+  A. Chọn File -> Page Setup
+  B. Chọn File -> Print
+  C. Chọn File -> Print Preview
+  D. Chọn File -> Properties
+
+Q17: Trong PowerPoint, khi chèn một đối tượng âm thanh vào Slide, chức năng nào trong thẻ PlayBack được dùng để chạy bài nhạc qua tất cả các Slide? Start - Automatically
+  A. Start - On Click
+  B. Start - Play across slides
+  C. Loop Until Stopped
+  D. Enter – Play across slides
+
+Q18: Trong Powerpoint, muốn tạo ra 1 slide mới ta dùng lệnh nào trong thẻ Home – Slides không thể sử dụng được?
+  A. New slide
+  B. Duplicate selected
+  C. Slide from tex
+  D. New Section
+
+Q19: Trong Powerpoint, thao tác chọn File – Close dùng để
+  A. Đóng tập tin hiện tại
+  B. Thoát khỏi Powerpoint
+  C. Lưu tập tin hiện tại
+  D. Mở một tập tin có sẵn trong máy
+
+Q20: Để tô màu nền cho Powerpoint ta thực hiện _____
+  A. Insert – Background – Background Style
+  B. Home – Background – Background Style
+  C. Design – Background – Background Style
+  D. View – Background – Background Style
+
+Q21: Trong Powerpoint, chế độ view nào giúp ta làm việc tốt nhất với các chuyển cảnh khi thiết kế (Slide transitions)?
+  A. Notes Pages
+  B. Normal
+  C. Reading View
+  D. Slide Sorter
+
+Q22: Chức năng nào trong nhóm công cụ sau dùng để trình chiếu slide đang thiết kế trong Powerpoint
+  A. Normal ( )
+  B. Slode sorter ( )
+  C. Reading view ( )
+  D. Slide show ( )
+
+Q23: Một đối tượng Powerpoint có thể có bao nhiêu hiệu ứng?
+  A. Chỉ có 1 hiệu ứng
+  B. Tối đa 3 hiệu ứng
+  C. Tối đa 5 hiệu ứng
+  D. Rất nhiều hiệu ứng
+
+Q24: Trong PowerPoint, các tính năng nào sau đây là không đúng?
+  A. Có thể chụp ảnh màn hình đang làm việc để chèn vào slide
+  B. Các thành phần của một đối tượng SmartArt vẫn có thể thể hiện hoạt hình (animation)
+  C. Có thể dễ dàng chuyển đổi một SmartArt này thành một dạng SmartArt khác
+  D. Khi chèn một đồ thị (Chart) có thể không cần dùng một bảng Excel để chứa dữ liệu
+
+Q25: Trong PowerPoint, câu nào sau đây là sai.
+  A. Có nhiều dạng slide transition
+  B. Một slide chỉ có tối đa một dạng transition
+  C. Có thể thiết lập các thông số như thời gian bắt đầu, sự kiện bắt đầu của một slide transition cho một slide
+  D. Không thể sắp xếp thứ tự chạy của các slide transition nếu không đổi thứ tự các slide
+
+Q26: Trong PowerPoint, câu nào sau đây là sai?
+  A. Có thể tạo các liên kết (hyperlink) đến các slide trong cùng một tập tin
+  B. Có thể nén video, audio dùng Compress Media
+  C. Có thể lưu một tập tin trình chiếu thành một thiết kế (design theme)
+  D. Không thể tạo một dạng layout mới cho một tập tin trình chiếu trong Slide Master
+
+Q27: Trong PowerPoint, câu nào sau đây sai?
+  A. Có thể chia bài thuyết trình thành nhiều section
+  B. Vùng Content có thể chứa một bảng (table)
+  C. Khi trình chiếu, phần notes của từng slide được hiện ra trên màn hình trình chiếu
+  D. Có thể dùng nhiều layout khác nhau trong bài thuyết trình
+
+Q28: Trong PowerPoint, Thành phần nào không thuộc một slide?
+  A. Title
+  B. Content
+  C. Slide Footer Area
+  D. Slide Hearder Area
+
+Q29: Đâu không phải là cách để trình diễn một bài thuyết trình trong Powerpoint?
+  A. Bấm vào nút Slide show ( ) ở góc dưới bên phải
+  B. Thẻ Slide show – chọn From Beginning
+  C. Thẻ Slide show – chọn From Custom Slide show
+  D. Thẻ Slide show – chọn Set Up Slide show
+
+Q30: Mục đích chính của chế độ xem Slide Sorter trong Powerpoint là gì?
+  A. Thiết kế các nội dung trong Slide một cách dễ dàng
+  B. Sắp xếp thứ tự các Slide một cách dễ dàng
+  C. Xem bài thuyết trình dưới góc nhìn người nói
+  D. Xem bài thuyết trình dưới góc nhìn khán giả
+
+Q31: Để trình chiếu từ slide 2 đến slide 4 trong một bài thuyết trình trong Powerpoint 2010, cách nào dưới đây là sai?
+  A. Ân các slide khác trừ slide 2, 3, 4
+  B. Sử dụng chức năng Custom show và chọn slide 2, 3, 4
+  C. Sử dụng chức năng Set Up Slide Show, chọn From 2 to 4 tại mục show slide trong cửa sổ hiện ra
+  D. Đặt màu nền của các slide 2, 3, 4 khác so với các slide còn lại
+
+Q32: Trong Powerpoint, chế độ trình chiếu Browsed by an individual (window) trong chức năng Set Up Slide Show tương đương với góc nhìn nào dưới đây ?
+  A. Normal
+  B. Slide Sorter
+  C. Reading View
+  D. Slide Master
+
+Q33: Đang thiết kế giáo án điện tử, trước khi thoát khỏi PowerPoint nếu người sử dụng chưa lưu lại tập tin thì máy sẽ hiện một thông báo. Để lưu lại tập tin này ta sẽ kích chuột trái vào nút nào trong bảng thông báo này?
+  A. Nút Yes
+  B. Nút No
+  C. Nút Cancel
+  D. Nút Save
+
+Q34: Trong Powerpoint, Để lưu tập tin với một tên khác ta chọn lệnh nào sau đây
+  A. File -> Chọn Open -> Gõ tên tập tin vào phần File Name
+  B. File -> Chọn Save as -> Gõ tên tập tin vào phần File Name
+  C. File -> Chọn New as-> Gõ tên tập tin vào phần File Name
+  D. File -> Chọn Save -> Gõ tên tập tin vào phần File Name
+
+Q35: Trong Powerpoint, Vào Transition -> tích vào after -> gõ vào 00:05 giây, bấm Apply to all slide sẽ thực hiện được lệnh trình chiếu:
+  A. Chỉ cần kích chuột một lần Slide được trình chiếu 00:05 giây bắt đầu từ Slide hiện hành được trình chiếu
+  B. Mỗi Slide được trình chiếu 00:05 giây bắt đầu từ Slide hiện hành được trình chiếu
+  C. Các Slide không tự động trình chiếu
+  D. Các Slide phải tuân thủ sự theo trình tự là trình chiếu lâu hơn 00:05 giây
+
+Q36: Trong Powerpoint, Để in Slide 1, 3, 6, 9 ta chọn File -> Chọn print:
+  A. Chọn Current Range -> Gõ vào 1, 3 , 6, 9
+  B. Chọn Slide-> Gõ vào 1, 3, 6, 9
+  C. Chọn All -> Gõ vào 1, 3, 6, 9
+  D. Chọn Seletion -> Gõ vào 1, 3, 6, 9
+
+Q37: Lệnh từ tổ hợp phím CTRL+N trong chương trình Microsoft Powerpoint nhằm để
+  A. Tạo Presentation mới
+  B. Không thực hiện được
+  C. Mở Presentation đã có
+  D. Đóng 1 Presentation
+
+Q38: Trong Powerpoint, phát biểu nào sau đây là sai?
+  A. Khi tạo hiệu ứng động cho một khối văn bản ta có thể cho xuất hiện lần lượt từng từ trong khối văn bản khi trình chiếu
+  B. Sau khi đã tạo hiệu ứng động cho một đối tượng nào đó ta không thể thay đổi kiểu hiệu ứng cho đối tượng đó
+  C. Có thể thực hiện hiệu ứng chuyển trang cho 1 slide bất kỳ trong bài trình diễn
+  D. Có thể thực hiện hiệu ứng chuyển trang cho tất cả các slide trong bài trình diễn
+
+Q39: Trong Powerpoint, sau khi thiết kế xong bài trình diễn, cách nào sau đây để trình chiếu ngay bài trình diễn đó?
+  A. Chọn Slide Show → Chọn Cusstom Show
+  B. Nhấn phím F5
+  C. Chọn View → Chọn Slide Show
+  D. Chọn Slide Show → Chon View Show
+
+Q40: Trong Powerpoint, âm thanh đưa vào bài trình diễn
+  A. Thực hiện được chỉ khi tạo hiệu ứng động cho đối tượng trong slide
+  B. Thực hiện được chỉ khi tạo hiệu ứng chuyển trang giữa các slide
+  C. Thực hiện được cả khi tạo hiệu ứng động và hiệu ứng chuyển trang
+  D. Không thực hiện được cả khi tạo hiệu ứng động và hiệu ứng chuyển trang
+
+Q41: Trong Powerpoint, sử dụng siêu liên kết (Hyperlink) sẽ cho phép người dùng liên kết đến (trường hợp máy tính đang có kết nối Internet)
+  A. Tất cả các tập tin, các slide đã có trong máy và các trang Web
+  B. Chỉ các trang Web có trên mạng
+  C. Chỉ các slide đã có trong tập tin thuyết trình đang soạn thảo
+  D. Chỉ các tập tin có sẵn trong các ổ đĩa của máy tính đang soạn thảo
+
+Q42: Trong Powerpoint, sau khi đã chèn một bảng biểu vào slide, muốn chia một ô nào đó thành 2 ô ta:
+  A. Các cách nêu trong câu này đều đúng
+  B. Chọn ô đó và nhắp chuột trái vào nút lệnh Split Cells trên thanh công cụ Tables and Borders
+  C. Kích chuột phải vào ô đó và chọn Split Cells
+  D. Chọn ô đó rồi chọn Table -> Split Cells
+
+Q43: Trong Powerpoint, cho phép người sử dụng thiết kế một slide chủ chứa các định dạng chung của toàn bộ các slide trong bài trình diễn. Để thực hiện điều này, người dùng phải
+  A. Chọn Insert -> Slide Master
+  B. Chọn Insert -> Master Slide
+  C. Chọn View -> Master Slide
+  D. Chọn View -> Slide Master
+
+Q44: Trong Powerpoint, khi tạo hiệu ứng động cho 2 đối tượng A và B trong một Slide, người thiết kế đã xác lập thời gian để B tự động xuất hiện sau A là 5 giây. Vậy khi trình chiếu:
+  A. Khi A đã xuất hiện, cứ 5 giây sau thì B Xuất hiện 1 lần
+  B. Sau khi a xuất hiện nếu người sử dụng nhấp chuột thì B lập tức xuất hiện
+  C. B luôn luôn xuất hiện sau A là 5 giây bất chấp người sử dụng có nhấp chuột hay không
+  D. Khi A đã xuất hiện nếu người sử dụng nhấp chuột thì 5 giây sau B mới xuất hiện.
+
+Q45: Trong Powerpoint, để tạo thêm một Slide giống với Slide đang chọn, ta sử dụng chức năng
+  A. Duplicate Slide
+  B. New Slide
+  C. Delete Slide
+  D. Add Section
+
+Q46: Trong Powerpoint, chức năng nào không có khi làm việc với Section?
+  A. Rename Section
+  B. Duplicate Section
+  C. Remove Section
+  D. Remove Section & Slides
+
+Q47: Trong Powerpoint, nút công cụ nào không có khi trình chiếu?
+  A. Pen
+  B. Eraser
+  C. Ink Color
+  D. Border
+
+Q48: Trong Powerpoint, chức năng nào sau đây không có?
+  A. SmartArt
+  B. ClipArt
+  C. Wrap Text
+  D. Text Box
+
+Q49: Trong PowerPoint, mặc định có bao nhiêu Layout?
+  A. 7
+  B. 8
+  C. 9
+  D. 10
+
+Q50: Trong PowerPoint, chức năng “Don’t show on title slide” trong Header & footer có tác dụng gì?
+  A. Không hiểu thị Header & Footer ở Slide đầu tiên
+  B. Không hiển thị Header&Footer ở tất cả các Slide có kiểu layout là title Slide
+  C. Không hiểu thị Header&Footer khi trình chiếu
+  D. Không hiển thị Header&Footer khi thiết kế Slide nhưng sẽ hiển thị khi trình chiếu
+
