@@ -3240,7 +3240,7 @@ window.DEFAULT_QUESTION_BANK = [
       "Định dạng số theo kiểu phân lớp"
     ],
     "answer": 1,
-    "imageUrl": "assets/images/m5_img4.jpg",
+    "imageUrl": "assets/images/m5_img5.jpg",
     "explanation": "Đáp án đúng là lựa chọn: B. Giảm số lẻ thập phân và làm tròn số"
   },
   {
@@ -3255,7 +3255,7 @@ window.DEFAULT_QUESTION_BANK = [
       "dddd dd-mmm-yyyy"
     ],
     "answer": 2,
-    "imageUrl": "assets/images/m5_img5.jpg",
+    "imageUrl": "assets/images/m5_img4.jpg",
     "explanation": "Đáp án đúng là lựa chọn: C. dddd dd-mm-yyyy"
   },
   {

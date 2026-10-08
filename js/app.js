@@ -492,13 +492,21 @@
       `;
     });
 
-    // Khi làm sai: Hiển thị câu trả lời đúng phía dưới như hình người dùng yêu cầu!
+    // Khi làm sai: Hiển thị câu trả lời đúng phía dưới (không lặp lại dòng thừa)
     if (isReview && !isCorrect) {
+      const optLetters = ['A', 'B', 'C', 'D'];
+      const correctLetter = optLetters[currentQ.answer] || '';
       const correctOptText = currentQ.options[currentQ.answer] || '';
+
+      let extraExplanation = '';
+      if (currentQ.explanation && !currentQ.explanation.trim().startsWith('Đáp án đúng là lựa chọn:')) {
+        extraExplanation = `<div class="explanation-text">${escapeHtml(currentQ.explanation)}</div>`;
+      }
+
       html += `
         <div class="correct-answer-banner">
-          <div>✔ Câu trả lời đúng: ${escapeHtml(correctOptText)}</div>
-          ${currentQ.explanation ? `<div class="explanation-text">${escapeHtml(currentQ.explanation)}</div>` : ''}
+          <div>✔ Câu trả lời đúng: ${correctLetter ? correctLetter + '. ' : ''}${escapeHtml(correctOptText)}</div>
+          ${extraExplanation}
         </div>
       `;
     }

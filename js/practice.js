@@ -622,20 +622,28 @@
       `;
     });
 
-    // Hiển thị câu trả lời đúng và giải thích khi làm sai hoặc xem lại
+    // Hiển thị câu trả lời đúng và giải thích khi làm sai hoặc xem lại (không lặp lại dòng thừa)
+    const optLetters = ['A', 'B', 'C', 'D'];
+    const correctLetter = optLetters[currentQ.answer] || '';
+    const correctOptText = currentQ.options[currentQ.answer] || '';
+
+    let extraExplanation = '';
+    if (currentQ.explanation && !currentQ.explanation.trim().startsWith('Đáp án đúng là lựa chọn:')) {
+      extraExplanation = `<div class="explanation-text">${escapeHtml(currentQ.explanation)}</div>`;
+    }
+
     if ((isGradedReview && !isCorrect) || (showInstantAnswer && !isCorrect)) {
-      const correctOptText = currentQ.options[currentQ.answer] || '';
       html += `
         <div class="correct-answer-banner">
-          <div>✔ Câu trả lời đúng: ${escapeHtml(correctOptText)}</div>
-          ${currentQ.explanation ? `<div class="explanation-text">${escapeHtml(currentQ.explanation)}</div>` : ''}
+          <div>✔ Câu trả lời đúng: ${correctLetter ? correctLetter + '. ' : ''}${escapeHtml(correctOptText)}</div>
+          ${extraExplanation}
         </div>
       `;
     } else if (showInstantAnswer && isCorrect) {
       html += `
         <div class="correct-answer-banner" style="background:#e8f5e9; border-color:#81c784; color:#1b5e20;">
-          <div>🎉 Chính xác! Bạn đã chọn đúng đáp án.</div>
-          ${currentQ.explanation ? `<div class="explanation-text" style="color:#2e7d32;">${escapeHtml(currentQ.explanation)}</div>` : ''}
+          <div>🎉 Chính xác! Bạn đã chọn đúng đáp án: ${correctLetter ? correctLetter + '. ' : ''}${escapeHtml(correctOptText)}</div>
+          ${extraExplanation}
         </div>
       `;
     }
