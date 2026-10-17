@@ -416,6 +416,30 @@ body {
   transform: translateY(-1px);
 }
 
+/* Thông báo toast khi trộn câu hỏi */
+.shuffle-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: #2e7d32;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14.5px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  z-index: 99999;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.shuffle-toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Đồng hồ đếm ngược */
 .timer-display {
   font-family: "Courier New", Courier, monospace, sans-serif;

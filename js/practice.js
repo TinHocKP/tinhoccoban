@@ -397,13 +397,13 @@
 
     const modInfo = MODULES_INFO[state.currentModule];
     const answeredCount = Object.keys(state.userAnswers).length;
-    let confirmMsg = `Bạn có muốn trộn ngẫu nhiên thứ tự 50 câu hỏi của ${modInfo.title} không?`;
-    if (answeredCount > 0 && state.view === 'study') {
-      confirmMsg = `Bạn đã làm ${answeredCount}/${state.questions.length} câu.\n\nTrộn 50 câu sẽ đảo ngẫu nhiên thứ tự 50 câu hỏi của chủ đề này và bắt đầu lại từ Câu 1 để bạn ôn luyện chống học vẹt.\n\nBạn có muốn tiếp tục trộn 50 câu không?`;
-    }
 
-    if (!confirm(confirmMsg)) {
-      return;
+    // Nếu học viên đã trả lời từ 3 câu trở lên thì hỏi xác nhận để tránh bấm nhầm mất bài
+    if (answeredCount >= 3 && state.view === 'study') {
+      const confirmMsg = `Bạn đã làm được ${answeredCount}/50 câu.\n\nBạn có muốn trộn ngẫu nhiên lại thứ tự 50 câu hỏi của ${modInfo.title} và làm lại từ Câu 1 không?`;
+      if (!confirm(confirmMsg)) {
+        return;
+      }
     }
 
     // Đảm bảo lấy đúng 50 câu hỏi chính thức của đúng chủ đề hiện tại, giữ nguyên 100% nội dung gốc
@@ -435,11 +435,31 @@
     saveModuleState();
     renderWorkspace();
 
+    // Hiển thị thông báo Toast nhỏ trên màn hình xác nhận đã trộn thành công
+    showShuffleToast(`🔀 Đã trộn ngẫu nhiên 50 câu hỏi của ${modInfo.code}!`);
+
     // Cuộn lên đầu câu hỏi
     const qBox = document.getElementById('question-box');
     if (qBox) {
       qBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+  }
+
+  // Thông báo nhanh (Toast) khi trộn câu hỏi thành công
+  function showShuffleToast(message) {
+    let toast = document.getElementById('shuffle-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'shuffle-toast';
+      toast.className = 'shuffle-toast';
+      document.body.appendChild(toast);
+    }
+    toast.textContent = message;
+    toast.classList.add('show');
+    clearTimeout(toast._timer);
+    toast._timer = setTimeout(() => {
+      toast.classList.remove('show');
+    }, 2000);
   }
 
   // Chuyển câu hỏi
