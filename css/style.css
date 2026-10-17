@@ -395,6 +395,27 @@ body {
   background: #f1f5f9;
 }
 
+/* Nút Trộn 50 câu */
+.btn-shuffle {
+  background: #fff3e0 !important;
+  color: #e65100 !important;
+  border: 1.5px solid #ffb74d !important;
+  font-weight: 700 !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-shuffle:hover {
+  background: #ffe0b2 !important;
+  border-color: #ffa726 !important;
+  color: #bf360c !important;
+  transform: translateY(-1px);
+}
+
 /* Đồng hồ đếm ngược */
 .timer-display {
   font-family: "Courier New", Courier, monospace, sans-serif;

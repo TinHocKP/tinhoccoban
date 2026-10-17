@@ -66,18 +66,10 @@
     wrongCount: 0
   };
 
-  // Lấy ngân hàng câu hỏi
+  // Lấy ngân hàng 300 câu hỏi chính thức Tin học Cơ bản Bách Khoa (6 chủ đề)
   function getQuestionBank() {
-    try {
-      const custom = localStorage.getItem(STORAGE_KEY_CUSTOM_BANK);
-      if (custom) {
-        const parsed = JSON.parse(custom);
-        if (Array.isArray(parsed) && parsed.length >= 30) {
-          return parsed;
-        }
-      }
-    } catch (e) {
-      console.warn('Không thể đọc ngân hàng câu hỏi tùy chỉnh:', e);
+    if (window.DEFAULT_QUESTION_BANK && Array.isArray(window.DEFAULT_QUESTION_BANK) && window.DEFAULT_QUESTION_BANK.length >= 300) {
+      return window.DEFAULT_QUESTION_BANK;
     }
     return window.DEFAULT_QUESTION_BANK || [];
   }
@@ -99,7 +91,13 @@
     try {
       const key = STORAGE_KEY_PREFIX + modNumber;
       const saved = localStorage.getItem(key);
-      if (saved) return JSON.parse(saved);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        // Chỉ chấp nhận dữ liệu có đúng 50 câu và tất cả câu hỏi thuộc đúng module
+        if (parsed && parsed.questions && Array.isArray(parsed.questions) && parsed.questions.length === 50 && parsed.questions.every(q => Number(q.module) === Number(modNumber))) {
+          return parsed;
+        }
+      }
     } catch (e) {
       console.warn('Lỗi đọc dữ liệu module:', e);
     }
@@ -313,14 +311,21 @@
       const saved = localStorage.getItem(key);
       if (saved) {
         const data = JSON.parse(saved);
-        if (data.questions && data.questions.length > 0) {
+        // Bắt buộc dữ liệu hợp lệ: Phải có đúng 50 câu và tất cả đều thuộc đúng modNumber
+        if (data && data.questions && Array.isArray(data.questions) && data.questions.length === 50 && data.questions.every(q => Number(q.module) === Number(modNumber))) {
           Object.assign(state, data);
 
-          // Đồng bộ lại ảnh chuẩn từ ngân hàng mới nhất
+          // Luôn đồng bộ 100% nội dung gốc từ ngân hàng câu hỏi chính thức (không bao giờ sửa nội dung câu hỏi)
           const bank = getQuestionBank();
           state.questions.forEach(q => {
             const fresh = bank.find(b => b.id === q.id);
-            if (fresh && fresh.imageUrl) q.imageUrl = fresh.imageUrl;
+            if (fresh) {
+              q.question = fresh.question;
+              q.options = fresh.options;
+              q.answer = fresh.answer;
+              q.explanation = fresh.explanation;
+              q.imageUrl = fresh.imageUrl;
+            }
           });
           return true;
         }
@@ -383,6 +388,57 @@
       showOverviewScreen();
     } else {
       renderWorkspace();
+    }
+  }
+
+  // Trộn 50 câu hỏi của đúng chủ đề hiện tại (không đổi chủ đề, không sửa nội dung câu hỏi)
+  function shuffleCurrentQuestions() {
+    if (!state.currentModule) return;
+
+    const modInfo = MODULES_INFO[state.currentModule];
+    const answeredCount = Object.keys(state.userAnswers).length;
+    let confirmMsg = `Bạn có muốn trộn ngẫu nhiên thứ tự 50 câu hỏi của ${modInfo.title} không?`;
+    if (answeredCount > 0 && state.view === 'study') {
+      confirmMsg = `Bạn đã làm ${answeredCount}/${state.questions.length} câu.\n\nTrộn 50 câu sẽ đảo ngẫu nhiên thứ tự 50 câu hỏi của chủ đề này và bắt đầu lại từ Câu 1 để bạn ôn luyện chống học vẹt.\n\nBạn có muốn tiếp tục trộn 50 câu không?`;
+    }
+
+    if (!confirm(confirmMsg)) {
+      return;
+    }
+
+    // Đảm bảo lấy đúng 50 câu hỏi chính thức của đúng chủ đề hiện tại, giữ nguyên 100% nội dung gốc
+    const officialQuestions = loadQuestionsForModule(state.currentModule);
+    if (!officialQuestions || officialQuestions.length === 0) return;
+
+    // Đảo ngẫu nhiên mảng 50 câu hỏi (Fisher-Yates shuffle)
+    const shuffled = [...officialQuestions];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+
+    // Đánh lại số thứ tự hiển thị từ 1 đến 50
+    state.questions = shuffled.map((q, idx) => ({
+      ...q,
+      examIndex: idx + 1
+    }));
+
+    // Đặt lại trạng thái làm bài để ôn tập từ đầu theo thứ tự mới
+    state.userAnswers = {};
+    state.flaggedQuestions = {};
+    state.view = 'study';
+    state.currentQuestionIndex = 0;
+    state.score = 0;
+    state.correctCount = 0;
+    state.wrongCount = 0;
+
+    saveModuleState();
+    renderWorkspace();
+
+    // Cuộn lên đầu câu hỏi
+    const qBox = document.getElementById('question-box');
+    if (qBox) {
+      qBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
 
@@ -773,6 +829,12 @@
           startTopicWorkspace(state.currentModule, true);
         }
       });
+    }
+
+    // Nút Trộn 50 câu bên sidebar
+    const shuffleBtn = document.getElementById('btn-shuffle-questions');
+    if (shuffleBtn) {
+      shuffleBtn.addEventListener('click', shuffleCurrentQuestions);
     }
 
     // Nút Đổi chủ đề trên Header
