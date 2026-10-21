@@ -35,18 +35,10 @@
     wrongCount: 0
   };
 
-  // Lấy ngân hàng câu hỏi (từ custom localStorage nếu có, hoặc mặc định 300 câu)
+  // Lấy ngân hàng 300 câu hỏi chính thức Tin học Cơ bản Bách Khoa (6 chủ đề)
   function getQuestionBank() {
-    try {
-      const custom = localStorage.getItem(STORAGE_KEY_CUSTOM_BANK);
-      if (custom) {
-        const parsed = JSON.parse(custom);
-        if (Array.isArray(parsed) && parsed.length >= 30) {
-          return parsed;
-        }
-      }
-    } catch (e) {
-      console.warn('Không thể đọc ngân hàng câu hỏi tùy chỉnh:', e);
+    if (window.DEFAULT_QUESTION_BANK && Array.isArray(window.DEFAULT_QUESTION_BANK) && window.DEFAULT_QUESTION_BANK.length >= 300) {
+      return window.DEFAULT_QUESTION_BANK;
     }
     return window.DEFAULT_QUESTION_BANK || [];
   }
@@ -229,11 +221,15 @@
         if (data.questions && data.questions.length === TOTAL_EXAM_QUESTIONS) {
           Object.assign(appState, data);
           
-          // Đồng bộ lại imageUrl chuẩn cục bộ từ ngân hàng câu hỏi mới nhất
+          // Đồng bộ lại nội dung, đáp án và ảnh chuẩn từ ngân hàng câu hỏi mới nhất
           const currentBank = getQuestionBank();
           appState.questions.forEach((q) => {
             const freshQ = currentBank.find(b => b.id === q.id);
-            if (freshQ && freshQ.imageUrl) {
+            if (freshQ) {
+              q.question = freshQ.question;
+              q.options = freshQ.options;
+              q.answer = freshQ.answer;
+              q.explanation = freshQ.explanation;
               q.imageUrl = freshQ.imageUrl;
             }
           });

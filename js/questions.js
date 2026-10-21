@@ -1079,9 +1079,9 @@ window.DEFAULT_QUESTION_BANK = [
       "5",
       "6"
     ],
-    "answer": 1,
+    "answer": 0,
     "imageUrl": "assets/images/m2_img3.jpg",
-    "explanation": "Đáp án đúng là lựa chọn: B. 4"
+    "explanation": "Đáp án đúng là lựa chọn: A. 3"
   },
   {
     "id": 73,
@@ -1529,9 +1529,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Là một dịch vụ của Internet",
       "Là một website"
     ],
-    "answer": 0,
+    "answer": 2,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: A. Là một hệ thống các máy chủ cung cấp thông tin đến bất kỳ các máy tính nào trên Internet có yêu cầu"
+    "explanation": "Đáp án đúng là lựa chọn: C. Là một dịch vụ của Internet"
   },
   {
     "id": 103,
@@ -1709,9 +1709,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Là một trang Web khi mở",
       "Tất cả các ý trên"
     ],
-    "answer": 1,
+    "answer": 0,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: B. Kết hợp nhiều trang Web trên một địa chỉ duy nhất"
+    "explanation": "Đáp án đúng là lựa chọn: A. Kết hợp nhiều trang Web trên nhiều địa chỉ khác nhau"
   },
   {
     "id": 115,
@@ -1739,9 +1739,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Là sự kết nối các máy tính trên phạm vi toàn cầu",
       "Là một cái máy tính"
     ],
-    "answer": 1,
+    "answer": 0,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: B. Là sự kết nối các máy tính của nhiều cơ quan"
+    "explanation": "Đáp án đúng là lựa chọn: A. Là một mạng máy tính nối giữa 2 máy với nhau"
   },
   {
     "id": 117,

@@ -219,7 +219,7 @@
         const mod = Number(btn.getAttribute('data-mod'));
         const isRetake = btn.getAttribute('data-retake') === 'true';
         if (isRetake) {
-          if (confirm(`Bạn có muốn làm lại từ đầu 50 câu của ${MODULES_INFO[mod].title}?`)) {
+          if (confirm(`Bạn có muốn làm lại đúng chủ đề ${MODULES_INFO[mod].title} (chỉ xáo trộn ngẫu nhiên 50 câu trong chủ đề này) không?`)) {
             startTopicWorkspace(mod, true);
           }
         } else {
@@ -248,7 +248,23 @@
     }
 
     if (!restored || forceReset) {
-      state.questions = loadQuestionsForModule(state.currentModule);
+      const baseQuestions = loadQuestionsForModule(state.currentModule);
+
+      // Khi làm lại 50 câu (forceReset): Tự động tạo lại ngẫu nhiên 50 câu hỏi
+      if (forceReset) {
+        const shuffled = [...baseQuestions];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        state.questions = shuffled.map((q, idx) => ({
+          ...q,
+          examIndex: idx + 1
+        }));
+      } else {
+        state.questions = baseQuestions;
+      }
+
       state.userAnswers = {};
       state.flaggedQuestions = {};
       state.view = 'study';
@@ -257,6 +273,10 @@
       state.correctCount = 0;
       state.wrongCount = 0;
       saveModuleState();
+
+      if (forceReset) {
+        showShuffleToast(`🔄 Đã làm mới và trộn ngẫu nhiên 50 câu hỏi của ${MODULES_INFO[state.currentModule].code}!`);
+      }
     }
 
     if (openInReview) {
@@ -781,7 +801,7 @@
       const retakeBtn = document.getElementById('btn-retake-exam');
       if (retakeBtn) {
         retakeBtn.addEventListener('click', () => {
-          if (confirm(`Bạn có muốn xóa kết quả và làm lại 50 câu hỏi của ${MODULES_INFO[state.currentModule].title} không?`)) {
+          if (confirm(`Bạn có muốn làm lại đúng chủ đề ${MODULES_INFO[state.currentModule].title} (chỉ xáo trộn ngẫu nhiên 50 câu trong chủ đề này) không?`)) {
             startTopicWorkspace(state.currentModule, true);
           }
         });
@@ -845,7 +865,7 @@
     const retakeSidebarBtn = document.getElementById('btn-retake-sidebar');
     if (retakeSidebarBtn) {
       retakeSidebarBtn.addEventListener('click', () => {
-        if (confirm(`Bạn có muốn làm lại toàn bộ 50 câu hỏi của ${MODULES_INFO[state.currentModule].title}?`)) {
+        if (confirm(`Bạn có muốn làm lại đúng chủ đề ${MODULES_INFO[state.currentModule].title} (chỉ xáo trộn ngẫu nhiên 50 câu trong chủ đề này) không?`)) {
           startTopicWorkspace(state.currentModule, true);
         }
       });
