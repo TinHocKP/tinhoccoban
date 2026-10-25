@@ -272,6 +272,18 @@
   // Chọn đáp án
   function selectOption(optIndex) {
     if (appState.view !== 'exam') return;
+    const currentQ = appState.questions[appState.currentQuestionIndex];
+    if (currentQ) {
+      const bank = getQuestionBank();
+      if (bank) {
+        const fresh = bank.find(b => b.id === currentQ.id);
+        if (fresh) {
+          currentQ.answer = fresh.answer;
+          currentQ.options = fresh.options;
+          currentQ.explanation = fresh.explanation;
+        }
+      }
+    }
     appState.userAnswers[appState.currentQuestionIndex] = optIndex;
     saveExamState();
     renderQuestionGrid();
@@ -357,9 +369,18 @@
     if (!gridEl) return;
     gridEl.innerHTML = '';
 
+    const bank = getQuestionBank();
     const isReview = (appState.view === 'result_summary' || appState.view === 'review');
 
     appState.questions.forEach((q, idx) => {
+      if (bank) {
+        const fresh = bank.find(b => b.id === q.id);
+        if (fresh) {
+          q.answer = fresh.answer;
+          q.options = fresh.options;
+          q.explanation = fresh.explanation;
+        }
+      }
       const cell = document.createElement('button');
       cell.className = 'q-cell';
       cell.textContent = idx + 1;
@@ -457,6 +478,17 @@
 
     const currentQ = appState.questions[appState.currentQuestionIndex];
     if (!currentQ) return;
+
+    const bank = getQuestionBank();
+    if (bank) {
+      const fresh = bank.find(b => b.id === currentQ.id);
+      if (fresh) {
+        currentQ.answer = fresh.answer;
+        currentQ.options = fresh.options;
+        currentQ.explanation = fresh.explanation;
+        currentQ.imageUrl = fresh.imageUrl;
+      }
+    }
 
     const isReview = (appState.view === 'review');
     const userPick = appState.userAnswers[appState.currentQuestionIndex];

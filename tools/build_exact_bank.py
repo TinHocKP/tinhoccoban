@@ -56,9 +56,9 @@ ans_m3 = [
 
 # Answers for Module 4 (Word)
 ans_m4 = [
-    2, 0, 2, 1, 2, 2, 3, 1, 0, 2,
+    2, 0, 2, 1, 2, 2, 3, 0, 0, 2,
     1, 0, 1, 1, 2, 0, 1, 0, 3, 1,
-    1, 3, 2, 3, 2, 1, 0, 2, 3, 1,
+    1, 3, 1, 3, 2, 1, 0, 2, 3, 1,
     0, 3, 3, 0, 2, 1, 3, 0, 3, 1,
     0, 2, 2, 2, 3, 1, 3, 1, 1, 1
 ]
@@ -74,11 +74,11 @@ ans_m5 = [
 
 # Answers for Module 6 (PowerPoint)
 ans_m6 = [
-    0, 1, 2, 3, 3, 3, 0, 2, 2, 2,
-    2, 1, 3, 3, 1, 1, 1, 3, 0, 2,
+    0, 1, 2, 3, 3, 3, 0, 1, 2, 2,
+    3, 1, 3, 3, 1, 1, 1, 3, 0, 2,
     3, 3, 3, 3, 2, 3, 2, 3, 3, 1,
-    3, 2, 3, 1, 1, 1, 0, 1, 1, 2,
-    0, 0, 3, 2, 0, 1, 3, 2, 2, 1
+    3, 2, 3, 1, 1, 0, 0, 1, 1, 2,
+    0, 2, 3, 2, 0, 1, 3, 2, 2, 1
 ]
 
 all_ans = {
@@ -184,13 +184,16 @@ for m in range(1, 7):
 
 print(f"\nTotal questions processed: {len(final_questions)}")
 
-# Write to js/questions.js
-with open("js/questions.js", "w", encoding="utf-8") as f:
+# Write to js/questions.js atomically
+tmp_file = "js/questions.js.tmp"
+with open(tmp_file, "w", encoding="utf-8") as f:
     f.write("// Ngân hàng 300 câu hỏi chính thức từ 6 Google Forms của giảng viên\n")
     f.write("// Hình ảnh minh họa được lưu trữ cục bộ tại assets/images/ đảm bảo không bao giờ bị lỗi\n")
     f.write("// Đề thi mỗi lượt rút ngẫu nhiên đúng 5 câu từ mỗi module -> 30 câu / 30 phút\n\n")
     f.write("window.DEFAULT_QUESTION_BANK = ")
     json.dump(final_questions, f, ensure_ascii=False, indent=2)
     f.write(";\n")
+
+os.replace(tmp_file, "js/questions.js")
 
 print("Successfully written updated js/questions.js with LOCAL images!")

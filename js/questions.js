@@ -2369,9 +2369,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Không thực hiện được",
       "Mở hộp thoại Copy and Apply Formatting bắng cách dùng lệnh Format - Copy Formatting từ menu"
     ],
-    "answer": 1,
+    "answer": 0,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: B. Bấm đúp nút Format Painter trên thanh công cụ. ."
+    "explanation": "Đáp án đúng là lựa chọn: A. Bấm nút Format Painter trên thanh công cụ."
   },
   {
     "id": 159,
@@ -2594,9 +2594,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Lưu và đọc các tập tin HTML",
       "Lưu và đọc các tập tin dạng .txt"
     ],
-    "answer": 2,
+    "answer": 1,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: C. Lưu và đọc các tập tin HTML"
+    "explanation": "Đáp án đúng là lựa chọn: B. Lưu và đọc các tập tin dạng .pdf"
   },
   {
     "id": 174,
@@ -3869,9 +3869,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Tùy chỉnh các đối tượng SmartArt cũng tương tự như Shapes",
       "Có thể thểm/bớt các thành phần trong SmartArt tùy ý"
     ],
-    "answer": 2,
+    "answer": 1,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: C. Tùy chỉnh các đối tượng SmartArt cũng tương tự như Shapes"
+    "explanation": "Đáp án đúng là lựa chọn: B. Có thể chuyển đổi qua lại giữa SmartArt và Shapes"
   },
   {
     "id": 259,
@@ -3914,9 +3914,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Subscript",
       "Column"
     ],
-    "answer": 2,
+    "answer": 3,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: C. Subscript"
+    "explanation": "Đáp án đúng là lựa chọn: D. Column"
   },
   {
     "id": 262,
@@ -4289,9 +4289,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Chọn All -> Gõ vào 1, 3, 6, 9",
       "Chọn Seletion -> Gõ vào 1, 3, 6, 9"
     ],
-    "answer": 1,
+    "answer": 0,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: B. Chọn Slide-> Gõ vào 1, 3, 6, 9"
+    "explanation": "Đáp án đúng là lựa chọn: A. Chọn Current Range -> Gõ vào 1, 3 , 6, 9"
   },
   {
     "id": 287,
@@ -4379,9 +4379,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Kích chuột phải vào ô đó và chọn Split Cells",
       "Chọn ô đó rồi chọn Table -> Split Cells"
     ],
-    "answer": 0,
+    "answer": 2,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: A. Các cách nêu trong câu này đều đúng"
+    "explanation": "Đáp án đúng là lựa chọn: C. Kích chuột phải vào ô đó và chọn Split Cells"
   },
   {
     "id": 293,

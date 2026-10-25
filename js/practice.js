@@ -505,6 +505,19 @@
     if (state.view === 'result_summary') return;
     if (state.view === 'review' && !state.instantMode) return;
 
+    const currentQ = state.questions[state.currentQuestionIndex];
+    if (currentQ) {
+      const bank = getQuestionBank();
+      if (bank) {
+        const fresh = bank.find(b => b.id === currentQ.id);
+        if (fresh) {
+          currentQ.answer = fresh.answer;
+          currentQ.options = fresh.options;
+          currentQ.explanation = fresh.explanation;
+        }
+      }
+    }
+
     state.userAnswers[state.currentQuestionIndex] = optIndex;
     saveModuleState();
     renderQuestionGrid();
@@ -580,9 +593,18 @@
     if (!gridEl) return;
     gridEl.innerHTML = '';
 
+    const bank = getQuestionBank();
     const isGraded = (state.view === 'result_summary' || state.view === 'review');
 
     state.questions.forEach((q, idx) => {
+      if (bank) {
+        const fresh = bank.find(b => b.id === q.id);
+        if (fresh) {
+          q.answer = fresh.answer;
+          q.options = fresh.options;
+          q.explanation = fresh.explanation;
+        }
+      }
       const cell = document.createElement('button');
       cell.className = 'q-cell';
       cell.textContent = idx + 1;
@@ -658,6 +680,18 @@
     const currentQ = state.questions[state.currentQuestionIndex];
     if (!currentQ) return;
 
+    const bank = getQuestionBank();
+    if (bank) {
+      const fresh = bank.find(b => b.id === currentQ.id);
+      if (fresh) {
+        currentQ.question = fresh.question;
+        currentQ.options = fresh.options;
+        currentQ.answer = fresh.answer;
+        currentQ.explanation = fresh.explanation;
+        currentQ.imageUrl = fresh.imageUrl;
+      }
+    }
+
     const isFlagged = !!state.flaggedQuestions[state.currentQuestionIndex];
     let qHtml = `<div>
       ${isFlagged ? '<span class="q-flag-tag">🚩 ĐÃ ĐẶT CỜ</span>' : ''}
@@ -684,6 +718,18 @@
 
     const currentQ = state.questions[state.currentQuestionIndex];
     if (!currentQ) return;
+
+    const bank = getQuestionBank();
+    if (bank) {
+      const fresh = bank.find(b => b.id === currentQ.id);
+      if (fresh) {
+        currentQ.question = fresh.question;
+        currentQ.options = fresh.options;
+        currentQ.answer = fresh.answer;
+        currentQ.explanation = fresh.explanation;
+        currentQ.imageUrl = fresh.imageUrl;
+      }
+    }
 
     const userPick = state.userAnswers[state.currentQuestionIndex];
     const hasPicked = (userPick !== undefined);
