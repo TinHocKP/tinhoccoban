@@ -3254,9 +3254,9 @@ window.DEFAULT_QUESTION_BANK = [
       "dddd dd-mm-yyyy",
       "dddd dd-mmm-yyyy"
     ],
-    "answer": 2,
+    "answer": 3,
     "imageUrl": "assets/images/m5_img4.jpg",
-    "explanation": "Đáp án đúng là lựa chọn: C. dddd dd-mm-yyyy"
+    "explanation": "Đáp án đúng là lựa chọn: D. dddd dd-mmm-yyyy"
   },
   {
     "id": 218,
@@ -3344,9 +3344,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Có thể tìm theo hàng trước hay cột trước",
       "Có thể tìm kiếm công thức"
     ],
-    "answer": 2,
+    "answer": 3,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: C. Có thể tìm theo hàng trước hay cột trước"
+    "explanation": "Đáp án đúng là lựa chọn: D. Có thể tìm kiếm công thức"
   },
   {
     "id": 224,
@@ -3419,9 +3419,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Yếu",
       "#N/A"
     ],
-    "answer": 2,
+    "answer": 3,
     "imageUrl": "assets/images/m5_img2.jpg",
-    "explanation": "Đáp án đúng là lựa chọn: C. Yếu"
+    "explanation": "Đáp án đúng là lựa chọn: D. #N/A"
   },
   {
     "id": 229,
@@ -3697,15 +3697,16 @@ window.DEFAULT_QUESTION_BANK = [
     "id": 247,
     "module": 5,
     "moduleName": "Module 5: Sử dụng bảng tính cơ bản - MS Excel (IU04)",
-    "question": "Trong Microsoft Excel, công thức nào sau đây sẽ cho lỗi #VALUE!=COUNTA(\"A\",13,4)",
+    "question": "Trong Microsoft Excel, công thức nào sau đây sẽ cho lỗi #VALUE!",
     "options": [
+      "=COUNTA(\"A\",13,4)",
       "=MAX(\"A\",13,4)",
       "=COUNTIF(D7:D18,\"A\")",
       "=COUNTA(\"A\",13,4)"
     ],
-    "answer": 0,
+    "answer": 1,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: A. =MAX(\"A\",13,4)"
+    "explanation": "Đáp án đúng là lựa chọn: B. =MAX(\"A\",13,4). Khi truyền trực tiếp một chuỗi văn bản không thể chuyển thành số (\"A\") vào các đối số của hàm MAX, Excel sẽ trả về lỗi #VALUE!."
   },
   {
     "id": 248,

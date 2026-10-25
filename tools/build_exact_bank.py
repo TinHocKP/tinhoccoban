@@ -1,6 +1,17 @@
 # -*- coding: utf-8 -*-
 import json
 import os
+import shutil
+
+uploaded_img = r"C:/Users/Home/.gemini/antigravity/brain/ffd06f4c-4481-41b6-a6a6-f81e2f0a8f06/.user_uploaded/media_1792884475941_f07e9e33.jpg"
+if os.path.exists(uploaded_img):
+    shutil.copyfile(uploaded_img, "assets/images/m5_img5.jpg")
+    print("Copied uploaded image to assets/images/m5_img5.jpg")
+
+uploaded_img4 = r"C:/Users/Home/.gemini/antigravity/brain/ffd06f4c-4481-41b6-a6a6-f81e2f0a8f06/.user_uploaded/media_1792884625309_91d98f1c.jpg"
+if os.path.exists(uploaded_img4):
+    shutil.copyfile(uploaded_img4, "assets/images/m5_img4.jpg")
+    print("Copied uploaded image to assets/images/m5_img4.jpg")
 
 # Load raw extracted forms
 with open("tools/raw_forms_extracted.json", "r", encoding="utf-8") as f:
@@ -29,15 +40,15 @@ ans_m1 = [
 ans_m2 = [
     2, 3, 2, 0, 3, 2, 1, 2, 3, 1,
     0, 2, 1, 2, 2, 0, 0, 0, 3, 2,
-    1, 1, 2, 0, 1, 2, 1, 2, 3, 0,
+    1, 0, 2, 0, 1, 2, 1, 2, 3, 0,
     2, 1, 3, 2, 0, 1, 3, 0, 0, 0,
     3, 1, 1, 1, 3, 1, 2, 1, 2, 1
 ]
 
 # Answers for Module 3 (Internet)
 ans_m3 = [
-    1, 0, 0, 0, 0, 2, 3, 2, 0, 0,
-    0, 1, 0, 1, 3, 1, 0, 3, 1, 1,
+    1, 2, 0, 0, 0, 2, 3, 2, 0, 0,
+    0, 1, 0, 0, 3, 0, 0, 3, 1, 1,
     1, 3, 1, 3, 1, 1, 2, 1, 2, 3,
     2, 1, 3, 0, 2, 1, 1, 2, 1, 1,
     0, 0, 2, 2, 0, 1, 0, 2, 0, 2
@@ -55,10 +66,10 @@ ans_m4 = [
 # Answers for Module 5 (Excel)
 ans_m5 = [
     3, 1, 1, 2, 0, 3, 2, 2, 3, 2,
-    1, 2, 1, 0, 0, 1, 2, 1, 3, 2,
-    1, 2, 2, 0, 3, 2, 0, 2, 2, 0,
+    1, 2, 1, 0, 0, 1, 3, 1, 3, 2,
+    1, 2, 3, 0, 3, 2, 0, 3, 2, 0,
     1, 0, 0, 2, 2, 1, 3, 3, 0, 2,
-    3, 0, 2, 2, 2, 3, 0, 1, 1, 2
+    3, 0, 2, 2, 2, 3, 1, 1, 1, 2
 ]
 
 # Answers for Module 6 (PowerPoint)
@@ -97,8 +108,8 @@ local_image_map = {
     # Module 5
     (5, 11): "assets/images/m5_img1.jpg",
     (5, 15): "assets/images/m5_img3.jpg",
-    (5, 16): "assets/images/m5_img4.jpg",
-    (5, 17): "assets/images/m5_img5.jpg",
+    (5, 16): "assets/images/m5_img5.jpg",
+    (5, 17): "assets/images/m5_img4.jpg",
     (5, 28): "assets/images/m5_img2.jpg",
     (5, 46): "assets/images/m5_img6.jpg",
 
@@ -114,6 +125,21 @@ for key, rel_path in local_image_map.items():
     else:
         print(f"Verified image: {rel_path} ({os.path.getsize(rel_path)} bytes) for Mod {key[0]} Q{key[1]}")
 
+# Custom overrides for questions with typos/missing options in the original Google Forms
+question_overrides = {
+    (5, 47): {
+        "question": "Trong Microsoft Excel, công thức nào sau đây sẽ cho lỗi #VALUE!",
+        "options": [
+            '=COUNTA("A",13,4)',
+            '=MAX("A",13,4)',
+            '=COUNTIF(D7:D18,"A")',
+            '=COUNTA("A",13,4)'
+        ],
+        "answer": 1,
+        "explanation": "Đáp án đúng là lựa chọn: B. =MAX(\"A\",13,4). Khi truyền trực tiếp một chuỗi văn bản không thể chuyển thành số (\"A\") vào các đối số của hàm MAX, Excel sẽ trả về lỗi #VALUE!."
+    }
+}
+
 final_questions = []
 global_id = 1
 
@@ -128,16 +154,28 @@ for m in range(1, 7):
 
         ans_idx = ans_list[idx] if idx < len(ans_list) else 0
 
+        q_text = q_obj["question"]
+        q_opts = list(q_obj["options"])
+
         # Construct explanation
-        correct_opt_text = q_obj["options"][ans_idx] if ans_idx < len(q_obj["options"]) else ""
+        correct_opt_text = q_opts[ans_idx] if ans_idx < len(q_opts) else ""
         explanation = f"Đáp án đúng là lựa chọn: {chr(65+ans_idx)}. {correct_opt_text}"
+
+        if (m, q_num) in question_overrides:
+            override = question_overrides[(m, q_num)]
+            q_text = override.get("question", q_text)
+            q_opts = override.get("options", q_opts)
+            if "answer" in override:
+                ans_idx = override["answer"]
+            if "explanation" in override:
+                explanation = override["explanation"]
 
         final_questions.append({
             "id": global_id,
             "module": m,
             "moduleName": module_titles[m],
-            "question": q_obj["question"],
-            "options": q_obj["options"],
+            "question": q_text,
+            "options": q_opts,
             "answer": ans_idx,
             "imageUrl": img_url,
             "explanation": explanation
