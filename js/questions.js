@@ -3839,9 +3839,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Có thể in vùng ghi chú khi in bài thuyết trình",
       "Người thuyết trình không thể xem nội dung trong vùng ghi chú khi bắt đầu thuyết trình"
     ],
-    "answer": 3,
+    "answer": 1,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: D. Người thuyết trình không thể xem nội dung trong vùng ghi chú khi bắt đầu thuyết trình"
+    "explanation": "Đáp án đúng là lựa chọn: B. Có thể chèn các đối tượng hình ảnh vào vùng ghi chú"
   },
   {
     "id": 257,
@@ -4064,9 +4064,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Reading View",
       "Slide Sorter"
     ],
-    "answer": 3,
+    "answer": 1,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: D. Slide Sorter"
+    "explanation": "Đáp án đúng là lựa chọn: B. Normal"
   },
   {
     "id": 272,
@@ -4244,9 +4244,9 @@ window.DEFAULT_QUESTION_BANK = [
       "Nút Cancel",
       "Nút Save"
     ],
-    "answer": 3,
+    "answer": 0,
     "imageUrl": null,
-    "explanation": "Đáp án đúng là lựa chọn: D. Nút Save"
+    "explanation": "Đáp án đúng là lựa chọn: A. Nút Yes"
   },
   {
     "id": 284,
